@@ -1,0 +1,142 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  html {
+    background-color: #f7f8fc;
+  }
+}
+
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+pre {
+  margin: 0;
+}
+ol,
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+}
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block;
+  vertical-align: middle;
+}
+
+.hero-container {
+  width: 100vw;
+  height: 90vh;
+  object-fit: cover;
+  background-image: url("/imgs/Hero_bg.jpg");
+  background-size: cover;
+}
+.my-container {
+  width: 90vw;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+.button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  padding: 12px 80px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 4px 2px;
+  transition-duration: 0.5s;
+  cursor: pointer;
+  border-radius: 32px;
+}
+
+.button1 {
+  background-color: #6870fe;
+  color: white;
+  border: 2px solid transparent;
+}
+
+.button1:hover {
+  background-color: transparent;
+  border: 2px solid #6870fe;
+  color: #6870fe;
+}
+
+.button2 {
+  background-color: white;
+  color: black;
+  border: 2px solid #008cba;
+}
+
+.button2:hover {
+  background-color: #008cba;
+  color: white;
+}
+
+.button3 {
+  background-color: white;
+  color: black;
+  border: 2px solid #f44336;
+}
+
+.button3:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+.button4 {
+  background-color: white;
+  color: black;
+  border: 2px solid #e7e7e7;
+}
+
+.button4:hover {
+  background-color: #e7e7e7;
+}
+
+.button5 {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+}
+
+.button5:hover {
+  background-color: #555555;
+  color: white;
+}
+@media screen and (max-width: 640px) {
+  .hero-container {
+    width: 100vw;
+    height: 90vh;
+    object-fit: cover;
+    background-image: url("/imgs/Hero_Mobile_img-min.jpg");
+    background-size: cover;
+  }
+  .text-display {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+  h2 {
+    font-size: 1.953rem !important;
+  }
+}
