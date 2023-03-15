@@ -22,7 +22,7 @@ export default function Hero() {
                   <a href="#">Youth Club</a>
                 </li>
                 <li className="pl-4 text-white text-base font-semibold antialiased">
-                  <a href="#">Facilities</a>
+                  <a href="#">Facilitiesss</a>
                 </li>
                 <li className="pl-4 text-white text-base font-semibold antialiased">
                   <a href="#">FAQs</a>
