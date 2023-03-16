@@ -174,3 +174,23 @@ object {
     display: none;
   }
 }
+@media screen and (max-width: 375px) {
+  .text-display {
+    font-size: 2.5rem !important;
+    line-height: 3rem !important;
+  }
+  h2 {
+    font-size: 1.5rem !important;
+    line-height: 1.5rem !important;
+  }
+  h3 {
+    font-size: 1.2rem !important;
+    line-height: 1.6rem !important;
+  }
+  .button {
+    padding: 12px 50px;
+  }
+  nav {
+    display: none;
+  }
+}
