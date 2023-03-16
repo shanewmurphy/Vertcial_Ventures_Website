@@ -3,7 +3,19 @@ export default function Hero() {
   return (
     <div className="hero-container">
       <div className="my-container">
-        <div className="flex justify-between">
+        <div className="flex justify-between nav-mobile">
+          <div>
+            {" "}
+            <Image
+              src="/imgs/Logo_Blue.svg"
+              width={124}
+              height={38}
+              alt="Logo"
+            />
+          </div>
+          <div>B</div>
+        </div>
+        <div className="nav-desktop flex justify-between">
           <div>
             <nav>
               <ul>
@@ -34,9 +46,10 @@ export default function Hero() {
         </div>
         <div className="container pt-10">
           <h1 className="text-white text-display font-black uppercase antialiased">
+            Cork Indoor <br />
             Rock Climbing
           </h1>
-          <h2 className="text-slateblue text-4xl font-bold antialiased">
+          <h2 className="text-slateblue text-4xl mt-2 font-bold antialiased">
             Climbing, Fitness and Fun
           </h2>
           <h3 className="text-2xl text-white lg:w-1/2  font-medium mt-4 antialiased">
@@ -49,7 +62,9 @@ export default function Hero() {
                 <div>
                   <button className="button button1">Book Now</button>
                 </div>
-                <div>09</div>
+                <div className="pt-4 text-white text-3xl text-bold">
+                  Call 0214 56874
+                </div>
               </div>
             </div>
           </div>

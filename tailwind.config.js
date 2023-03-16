@@ -14,7 +14,7 @@ module.exports = {
         display: [
           "3.75rem",
           {
-            lineHeight: "5rem",
+            lineHeight: "4.5rem",
           },
         ],
       },

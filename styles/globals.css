@@ -49,11 +49,15 @@ object {
   background-image: url("/imgs/Hero_bg.jpg");
   background-size: cover;
 }
+.nav-mobile {
+  display: none;
+}
 .my-container {
   width: 90vw;
   margin: 0 auto;
-  padding-top: 40px;
+  padding-top: 32px;
 }
+
 .button {
   background-color: transparent;
   border: none;
@@ -125,28 +129,43 @@ object {
   color: white;
 }
 @media screen and (max-width: 640px) {
+  .nav-desktop {
+    display: none;
+  }
+  .nav-mobile {
+    display: flex;
+  }
   .hero-container {
     width: 100vw;
     height: 90vh;
     object-fit: cover;
-    background-image: url("/imgs/Hero_mobile-min.jpg");
+    background-image: url("/imgs/Hero_640_A-min.jpg");
     background-size: cover;
   }
-  .text-display {
-    font-size: 2.5rem !important;
-    line-height: 3rem;
+  .my-container {
+    padding-top: 24px;
   }
-  h2 {
-    font-size: 1.953rem !important;
-  }
-}
-@media screen and (max-width: 358px) {
   .text-display {
     font-size: 3rem !important;
     line-height: 3.5rem;
   }
   h2 {
+    font-size: 2rem !important;
+    line-height: 2.5rem;
+  }
+}
+@media screen and (max-width: 358px) {
+  .text-display {
+    font-size: 2rem !important;
+    line-height: 2.5rem !important;
+  }
+  h2 {
     font-size: 1.5rem !important;
+    line-height: 1.5rem !important;
+  }
+  h3 {
+    font-size: 1rem !important;
+    line-height: 1.5rem !important;
   }
   .button {
     padding: 12px 50px;
