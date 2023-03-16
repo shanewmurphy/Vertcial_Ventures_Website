@@ -27,16 +27,16 @@ export default function Hero() {
                     alt="Logo"
                   />
                 </div>
-                <li className="pl-4 text-white text-base font-semibold antialiased">
+                <li className="pl-4 text-white text-xl font-semibold antialiased">
                   <a href="#">Climbing Programs</a>
                 </li>
-                <li className="pl-4 text-white text-base font-semibold antialiased">
+                <li className="pl-4 text-white text-xl font-semibold antialiased">
                   <a href="#">Youth Club</a>
                 </li>
-                <li className="pl-4 text-white text-base font-semibold antialiased">
-                  <a href="#">Facilitiesss</a>
+                <li className="pl-4 text-white text-xl font-semibold antialiased">
+                  <a href="#">Facilities</a>
                 </li>
-                <li className="pl-4 text-white text-base font-semibold antialiased">
+                <li className="pl-4 text-white text-xl font-semibold antialiased">
                   <a href="#">FAQs</a>
                 </li>
               </ul>
