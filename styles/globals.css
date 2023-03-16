@@ -39,12 +39,11 @@ iframe,
 embed,
 object {
   display: block;
-  vertical-align: middle;
 }
 
 .hero-container {
   width: 100vw;
-  height: 90vh;
+  height: 100vh;
   object-fit: cover;
   background-image: url("/imgs/Hero_bg.jpg");
   background-size: cover;
@@ -55,7 +54,7 @@ object {
 .my-container {
   width: 90vw;
   margin: 0 auto;
-  padding-top: 32px;
+  padding-top: 24px;
 }
 
 .button {
@@ -128,6 +127,18 @@ object {
   background-color: #555555;
   color: white;
 }
+@media screen and (max-width: 1440px) {
+  .text-display {
+    font-size: 4rem !important;
+    line-height: 4.5rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .text-display {
+    font-size: 3rem !important;
+    line-height: 3.5rem;
+  }
+}
 @media screen and (max-width: 640px) {
   .nav-desktop {
     display: none;
@@ -139,11 +150,11 @@ object {
     width: 100vw;
     height: 90vh;
     object-fit: cover;
-    background-image: url("/imgs/Hero_640_A-min.jpg");
+    background-image: url("/imgs/Hero_640-min.jpg");
     background-size: cover;
   }
   .my-container {
-    padding-top: 24px;
+    padding-top: 40px;
   }
   .text-display {
     font-size: 3rem !important;
@@ -172,6 +183,16 @@ object {
   }
   nav {
     display: none;
+  }
+}
+@media screen and (max-width: 390px) {
+  .text-display {
+    font-size: 2.5rem !important;
+    line-height: 3rem !important;
+  }
+  h2 {
+    font-size: 1.5rem !important;
+    line-height: 2rem !important;
   }
 }
 @media screen and (max-width: 375px) {

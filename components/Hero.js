@@ -27,16 +27,16 @@ export default function Hero() {
                     alt="Logo"
                   />
                 </div>
-                <li className="pl-4 text-white text-xl font-semibold antialiased">
+                <li className="pl-4 text-white text-lg font-semibold antialiased">
                   <a href="#">Climbing Programs</a>
                 </li>
-                <li className="pl-4 text-white text-xl font-semibold antialiased">
+                <li className="pl-4 text-white text-lg font-semibold antialiased">
                   <a href="#">Youth Club</a>
                 </li>
-                <li className="pl-4 text-white text-xl font-semibold antialiased">
+                <li className="pl-4 text-white text-lg font-semibold antialiased">
                   <a href="#">Facilities</a>
                 </li>
-                <li className="pl-4 text-white text-xl font-semibold antialiased">
+                <li className="pl-4 text-white text-lg font-semibold antialiased">
                   <a href="#">FAQs</a>
                 </li>
               </ul>
@@ -44,7 +44,7 @@ export default function Hero() {
           </div>
           <div>BBBB</div>
         </div>
-        <div className="container pt-10">
+        <div className="container pt-8">
           <h1 className="text-white text-display font-black uppercase antialiased">
             Cork Indoor <br />
             Rock Climbing

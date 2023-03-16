@@ -12,9 +12,9 @@ module.exports = {
       },
       fontSize: {
         display: [
-          "3.75rem",
+          "3rem",
           {
-            lineHeight: "4.5rem",
+            lineHeight: "3.5rem",
           },
         ],
       },
