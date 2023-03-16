@@ -6,8 +6,8 @@ export default function Hero() {
         <div className="flex justify-between">
           <div>
             <nav>
-              <ul className="lg:visible sm:invisible xs:invisible">
-                <div className="visible">
+              <ul>
+                <div>
                   <Image
                     src="/imgs/Logo_Blue.svg"
                     width={124}
@@ -45,7 +45,7 @@ export default function Hero() {
           </h3>
           <div>
             <div className="flex mt-6">
-              <div class="grid grid-cols-2 gap-4">
+              <div className="grid lg:grid-cols-2 sm:grid-cols-1 gap-4">
                 <div>
                   <button className="button button1">Book Now</button>
                 </div>

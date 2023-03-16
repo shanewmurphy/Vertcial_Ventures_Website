@@ -129,14 +129,29 @@ object {
     width: 100vw;
     height: 90vh;
     object-fit: cover;
-    background-image: url("/imgs/Hero_Mobile_img-min.jpg");
+    background-image: url("/imgs/Hero_mobile-min.jpg");
     background-size: cover;
   }
   .text-display {
-    font-size: 3rem;
-    line-height: 4rem;
+    font-size: 2.5rem !important;
+    line-height: 3rem;
   }
   h2 {
     font-size: 1.953rem !important;
+  }
+}
+@media screen and (max-width: 358px) {
+  .text-display {
+    font-size: 3rem !important;
+    line-height: 3.5rem;
+  }
+  h2 {
+    font-size: 1.5rem !important;
+  }
+  .button {
+    padding: 12px 50px;
+  }
+  nav {
+    display: none;
   }
 }
