@@ -148,7 +148,7 @@ object {
   }
   .hero-container {
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
     object-fit: cover;
     background-image: url("/imgs/Hero_640-min.jpg");
     background-size: cover;
@@ -209,9 +209,15 @@ object {
     line-height: 1.6rem !important;
   }
   .button {
-    padding: 12px 50px;
+    padding: 12px 70px;
   }
   nav {
     display: none;
+  }
+}
+@media screen and (max-width: 358px) {
+  .text-display {
+    font-size: 2rem !important;
+    line-height: 2.5rem !important;
   }
 }
