@@ -66,6 +66,27 @@ export default function Hero() {
                 </div>
               </div>
             </div>
+            <div className="flex gap-3.5 mt-8">
+              <div>
+                <Image
+                  src="/imgs/Google_Profiles.png"
+                  width={120}
+                  height={39}
+                  alt="Google Profiles"
+                />
+              </div>
+              <div>
+                <Image
+                  src="./imgs/Google_Star_Reviews.svg"
+                  width={122}
+                  height={37}
+                  alt="Google reviews icon"
+                />
+              </div>
+              <div>
+                <h3 className="text-white">4.5</h3>
+              </div>
+            </div>
           </div>
         </div>
       </div>
