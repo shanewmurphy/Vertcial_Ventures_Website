@@ -12,7 +12,7 @@ export default function Hero() {
               alt="Logo"
             />
           </div>
-          <div>B</div>
+          <div>BBBBB</div>
         </div>
         <div className="nav-desktop flex justify-between">
           <div>
@@ -57,12 +57,12 @@ export default function Hero() {
           </h4>
           <div>
             <div className="flex mt-6">
-              <div className="grid lg:grid-cols-2 sm:grid-cols-1 gap-4">
+              <div className="grid xl:grid-cols-2 lg:grid-cols-1 gap-4">
                 <div>
                   <button className="button button1">Book Now</button>
                 </div>
-                <div className="pt-4 text-white text-3xl text-bold xs:invisible lg:visible">
-                  Call 0214 56874
+                <div className="lg:pt-4 sm:pt-1 text-white text-bold lg:visible">
+                  <h4 className="hero-number">Call 0214 56874</h4>
                 </div>
               </div>
             </div>

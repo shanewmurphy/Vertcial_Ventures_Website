@@ -16,12 +16,15 @@
   /* --- H2 size --- */
   --h2-size: 2.441rem;
   --h2-line-height: 56px;
-  /* --- H2 size --- */
+  /* --- H3 size --- */
   --h3-size: 1.953rem;
   --h3-line-height: 48px;
-  /* --- H2 size --- */
+  /* --- H4 size --- */
   --h4-size: 1.563rem;
   --h4-line-height: 35px;
+  /* --- H5 size --- */
+  --h5-size: 1.563rem;
+  --h5-line-height: 32px;
 }
 h1 {
   font-size: var(--diplay-size);
@@ -39,11 +42,16 @@ h4 {
   font-size: var(--h4-size);
   line-height: var(--h4-line-height);
 }
+h5 {
+  font-size: var(--h5-size);
+  line-height: var(--h5-line-height);
+  font-weight: 600;
+}
 @media screen and (max-width: 411px) {
   :root {
     /* --- Display size --- */
     --diplay-size: 2.441rem;
-    --display-line-height: 52px;
+    --display-line-height: 48px;
     /* --- H1 size --- */
     --h3-size: 1.563rem;
     --h3-line-height: 40px;
@@ -185,5 +193,14 @@ object {
   }
   .nav-desktop {
     display: none;
+  }
+  .hero-number {
+    display: none;
+  }
+  .nav-desktop {
+    display: none;
+  }
+  .nav-mobile {
+    display: flex;
   }
 }
