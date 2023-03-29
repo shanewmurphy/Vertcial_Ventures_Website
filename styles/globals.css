@@ -6,7 +6,52 @@
     background-color: #f7f8fc;
   }
 }
-
+:root {
+  /* --- Display size --- */
+  --diplay-size: 3.815rem;
+  --display-line-height: 70px;
+  /* --- H1 size --- */
+  --h1-size: 3.052rem;
+  --h1-line-height: 64px;
+  /* --- H2 size --- */
+  --h2-size: 2.441rem;
+  --h2-line-height: 56px;
+  /* --- H2 size --- */
+  --h3-size: 1.953rem;
+  --h3-line-height: 48px;
+  /* --- H2 size --- */
+  --h4-size: 1.563rem;
+  --h4-line-height: 35px;
+}
+h1 {
+  font-size: var(--diplay-size);
+  line-height: var(--display-line-height);
+}
+h2 {
+  font-size: var(--h2-size);
+  line-height: var(--h2-line-height);
+}
+h3 {
+  font-size: var(--h3-size);
+  line-height: var(--h3-line-height);
+}
+h4 {
+  font-size: var(--h4-size);
+  line-height: var(--h4-line-height);
+}
+@media screen and (max-width: 411px) {
+  :root {
+    /* --- Display size --- */
+    --diplay-size: 2.441rem;
+    --display-line-height: 50px;
+    /* --- H1 size --- */
+    --h3-size: 1.563rem;
+    --h3-line-height: 40px;
+    /* --- H2 size --- */
+    --h4-size: 1rem;
+    --h4-line-height: 24px;
+  }
+}
 blockquote,
 dl,
 dd,
@@ -47,6 +92,9 @@ object {
   object-fit: cover;
   background-image: url("/imgs/Hero_bg.jpg");
   background-size: cover;
+}
+.nav-desktop {
+  display: flex;
 }
 .nav-mobile {
   display: none;
@@ -127,104 +175,15 @@ object {
   background-color: #555555;
   color: white;
 }
-@media screen and (max-width: 1440px) {
-  .text-display {
-    font-size: 4rem !important;
-    line-height: 4rem;
-  }
-}
-@media screen and (max-width: 1024px) {
-  .text-display {
-    font-size: 3rem !important;
-    line-height: 3.5rem;
-  }
-}
-@media screen and (max-width: 768px) {
-  .text-display {
-    font-size: 4rem !important;
-    line-height: 4.5rem;
-  }
-}
-@media screen and (max-width: 640px) {
-  .nav-desktop {
-    display: none;
-  }
-  .nav-mobile {
-    display: flex;
-  }
+@media screen and (max-width: 411px) {
   .hero-container {
     width: 100vw;
     height: 100vh;
     object-fit: cover;
-    background-image: url("/imgs/Hero_640-min.jpg");
+    background-image: url("/imgs/Hero_Mobile_411-min.jpg");
     background-size: cover;
   }
-  .my-container {
-    padding-top: 40px;
-  }
-  .text-display {
-    font-size: 3rem !important;
-    line-height: 3.5rem;
-  }
-  h2 {
-    font-size: 2rem !important;
-    line-height: 2.5rem;
-  }
-}
-@media screen and (max-width: 425px) {
-  .text-display {
-    font-size: 2.7rem !important;
-    line-height: 3rem !important;
-  }
-  h2 {
-    font-size: 1.8rem !important;
-    line-height: 2rem !important;
-  }
-  h3 {
-    font-size: 1.3rem !important;
-    line-height: 1.6rem !important;
-  }
-  .button {
-    padding: 12px 50px;
-  }
-  nav {
+  .nav-desktop {
     display: none;
-  }
-}
-@media screen and (max-width: 390px) {
-  .text-display {
-    font-size: 2.5rem !important;
-    line-height: 3rem !important;
-  }
-  h2 {
-    font-size: 1.5rem !important;
-    line-height: 2rem !important;
-  }
-}
-@media screen and (max-width: 375px) {
-  .text-display {
-    font-size: 2.5rem !important;
-    line-height: 3rem !important;
-  }
-  h2 {
-    font-size: 1.5rem !important;
-    line-height: 1.5rem !important;
-  }
-  h3 {
-    font-size: 1.2rem !important;
-    line-height: 1.6rem !important;
-  }
-  .button {
-    padding: 12px 70px;
-  }
-  nav {
-    display: none;
-  }
-}
-@media screen and (max-width: 358px) {
-  .text-display {
-    font-size: 2.3rem !important;
-    line-height: 3rem !important;
-    color: pink;
   }
 }

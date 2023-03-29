@@ -1,0 +1,110 @@
+@media screen and (max-width: 1440px) {
+  .text-display {
+    font-size: 4rem !important;
+    line-height: 4rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .text-display {
+    font-size: 3rem !important;
+    line-height: 3.5rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .text-display {
+    font-size: 4rem !important;
+    line-height: 4.5rem;
+  }
+}
+@media screen and (max-width: 640px) {
+  .nav-desktop {
+    display: none;
+  }
+  .nav-mobile {
+    display: flex;
+  }
+  .hero-container {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    background-image: url("/imgs/Hero_mobile-min.jpg");
+    background-size: cover;
+    background-color: pink;
+  }
+  .my-container {
+    padding-top: 40px;
+  }
+  .text-display {
+    font-size: 3rem !important;
+    line-height: 3.5rem;
+  }
+  h2 {
+    font-size: 2rem !important;
+    line-height: 2.5rem;
+  }
+}
+@media screen and (max-width: 425px) {
+  .hero-container {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    background-image: url("/imgs/Hero_mobile-min.jpg");
+    background-size: cover;
+  }
+  .text-display {
+    font-size: 2.7rem !important;
+    line-height: 3rem !important;
+  }
+  h2 {
+    font-size: 1.8rem !important;
+    line-height: 2rem !important;
+  }
+  h3 {
+    font-size: 1.3rem !important;
+    line-height: 1.6rem !important;
+  }
+  .button {
+    padding: 12px 50px;
+  }
+  nav {
+    display: none;
+  }
+}
+@media screen and (max-width: 390px) {
+  .text-display {
+    font-size: 2.5rem !important;
+    line-height: 3rem !important;
+  }
+  h2 {
+    font-size: 1.5rem !important;
+    line-height: 2rem !important;
+  }
+}
+@media screen and (max-width: 375px) {
+  .text-display {
+    font-size: 2.5rem !important;
+    line-height: 3rem !important;
+    color: pink;
+  }
+  h2 {
+    font-size: 1.5rem !important;
+    line-height: 1.5rem !important;
+  }
+  h3 {
+    font-size: 1.2rem !important;
+    line-height: 1.6rem !important;
+  }
+  .button {
+    padding: 12px 70px;
+  }
+  nav {
+    display: none;
+  }
+}
+@media screen and (max-width: 358px) {
+  .text-display {
+    font-size: 2.3rem !important;
+    line-height: 3rem !important;
+    color: pink;
+  }
+}
