@@ -15,9 +15,7 @@ export default function Adventure() {
               </h4>
               <div className="mt-4">
                 <ul className="bullet-point-list">
-                  <li className="pt-2 pb-2">
-                    Suitable for any age and experience level
-                  </li>
+                  <li className="pt-2 pb-2">All ages and experience level</li>
                   <li className="pt-2 pb-2">Fun and challenging routes</li>
                   <li className="pt-2 pb-2">Friendly and helpful staff</li>
                 </ul>

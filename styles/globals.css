@@ -76,7 +76,11 @@ p {
 
     /* --- H2 size --- */
     --h2-size: 1.953rem;
-    --h2-line-height: 42px;
+    --h2-line-height: 38px;
+
+    /* --- H4 size --- */
+    --h4-size: 1.25rem;
+    --h4-line-height: 28px;
 
     /* --- paragraph size --- */
     --paragraph-size: 1rem;

@@ -66,7 +66,7 @@ export default function Hero() {
                 </div>
               </div>
             </div>
-            <div className="flex gap-3.5 mt-8">
+            <div className="flex gap-3.5 mt-8 xl:visible lg:visible md:visible xxs:invisible">
               <div>
                 <Image
                   src="/imgs/Google_Profiles.png"
