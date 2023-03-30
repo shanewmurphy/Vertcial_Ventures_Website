@@ -75,8 +75,8 @@ p {
     --h3-line-height: 40px;
 
     /* --- H2 size --- */
-    --h2-size: 2.441rem;
-    --h2-line-height: 48px;
+    --h2-size: 1.953rem;
+    --h2-line-height: 42px;
 
     /* --- paragraph size --- */
     --paragraph-size: 1rem;
@@ -152,7 +152,6 @@ object {
 .my-container {
   width: 90vw;
   margin: 0 auto;
-  padding-top: 32px;
 }
 .full-width-container {
   width: 100vw;
@@ -162,8 +161,9 @@ ul.bullet-point-list {
   display: block;
 }
 .bullet-point-list h6 {
-  font-size: 0.9rem;
-  display: inline-flex;
+  font-size: 1.2rem;
+  display: inline;
+  word-wrap: break-word !important;
 }
 span::before {
   /* background-image: url("/imgs/bulletpoint.svg"); */
@@ -251,6 +251,7 @@ span::before {
     background-image: url("/imgs/Hero_Mobile_411-min.jpg");
     background-size: cover;
   }
+
   .nav-desktop {
     display: none;
   }

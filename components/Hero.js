@@ -2,7 +2,7 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <div className="hero-container">
-      <div className="my-container">
+      <div className="my-container pt-8">
         <div className="flex justify-between nav-mobile">
           <div>
             <Image
@@ -51,7 +51,7 @@ export default function Hero() {
           <h3 className="text-slateblue mt-1 font-bold antialiased">
             Climbing, Fitness and Fun
           </h3>
-          <h4 className="text-white lg:w-1/2  font-medium mt-2 antialiased">
+          <h4 className="text-white lg:w-1/2 font-medium mt-2 antialiased">
             Experience the thrill of climbing in a safe and controlled
             environment
           </h4>
