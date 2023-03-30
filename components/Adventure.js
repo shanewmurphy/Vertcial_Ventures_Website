@@ -4,7 +4,7 @@ export default function Adventure() {
     <div>
       <div className="full-width-container">
         <div className="my-container">
-          <div className="grid lg:grid-cols-2 sm:grid-col-1 gap-14 mt-32 pb-36">
+          <div className="grid lg:grid-cols-2 sm:grid-col-1 lg:mt-32 pb-32 gap-14">
             <div>
               <h2 className="font-black text-midnight mb-4">
                 Discover a new passion with indoor rock climbing
