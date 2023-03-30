@@ -20,7 +20,7 @@ module.exports = {
       },
       screens: {
         xs: "640px",
-        xxs: "425px",
+        xxs: "358px",
       },
       colors: {
         java: "#00DDDE",
