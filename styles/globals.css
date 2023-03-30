@@ -10,21 +10,31 @@
   /* --- Display size --- */
   --diplay-size: 3.815rem;
   --display-line-height: 70px;
+
   /* --- H1 size --- */
   --h1-size: 3.052rem;
   --h1-line-height: 64px;
+
   /* --- H2 size --- */
   --h2-size: 2.441rem;
   --h2-line-height: 48px;
+
   /* --- H3 size --- */
   --h3-size: 1.953rem;
   --h3-line-height: 48px;
+
   /* --- H4 size --- */
   --h4-size: 1.563rem;
   --h4-line-height: 35px;
+
   /* --- H5 size --- */
-  --h5-size: 1.563rem;
+  --h5-size: 1.25rem;
   --h5-line-height: 32px;
+
+  /* --- H6 size --- */
+  --h5-size: 1rem;
+  --h5-line-height: 24px;
+
   /* --- paragraph size --- */
   --paragraph-size: 1.25rem;
   --paragraph-line-height: 28px;
@@ -150,6 +160,10 @@ object {
 }
 ul.bullet-point-list {
   display: block;
+}
+.bullet-point-list h6 {
+  font-size: 0.9rem;
+  display: inline-flex;
 }
 span::before {
   /* background-image: url("/imgs/bulletpoint.svg"); */
