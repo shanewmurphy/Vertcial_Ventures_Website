@@ -84,7 +84,7 @@ export default function Hero() {
                 />
               </div>
               <div>
-                <h3 className="text-white">4.5</h3>
+                <h3 className="text-white font-bold">4.5</h3>
               </div>
             </div>
           </div>
