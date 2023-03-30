@@ -22,7 +22,7 @@ export default function Adventure() {
                     </span>
                   </li>
                   <li className="pt-2 pb-2">
-                    <span className="icon font-bold pr-6">
+                    <span className="icon font-bold text-slateblue pr-6">
                       Fun and challenging routes
                     </span>
                   </li>
