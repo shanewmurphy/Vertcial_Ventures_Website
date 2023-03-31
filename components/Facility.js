@@ -8,8 +8,8 @@ export default function Climbs() {
             feet
           </h2>
           <h4 className="text-center text-gray font-medium">
-            With over 10,000 square feet of climbing opportunities, there's lots
-            to choose from
+            With over 10,000 square feet of climbing opportunities, there&apos;s
+            lots to choose from
           </h4>
         </div>
       </div>
