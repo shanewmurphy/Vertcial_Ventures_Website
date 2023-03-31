@@ -16,25 +16,37 @@ export default function Adventure() {
               <div className="mt-6">
                 <div className="flex benefits-list p-2">
                   <Image
-                    src="/imgs/routes_X.png"
-                    width={75}
-                    height={56}
+                    src="/imgs/Routes_A.png"
+                    width={65}
+                    height={50}
                     alt="routes icon"
                   />
-                  <h6 className="pt-4 pl-4 font-medium">
+                  <h6 className="pt-3 pl-4 font-bold text-midnight">
                     Fun and challenging routes
                   </h6>
                 </div>
                 <div className="flex benefits-list p-2">
                   <Image
-                    src="/imgs/Staff_C.png"
-                    width={75}
-                    height={47}
+                    src="/imgs/Staff_A.png"
+                    width={65}
+                    height={50}
                     alt="Staff icon"
                   />
-                  <h6 className="pt-2 pl-4 font-medium">BB</h6>
+                  <h6 className="pt-3 pl-4 font-bold text-midnight">
+                    Friendly and helpful staff
+                  </h6>
                 </div>
-                <div>CC</div>
+                <div className="flex benefits-list p-2">
+                  <Image
+                    src="/imgs/Problem_A.png"
+                    width={65}
+                    height={50}
+                    alt="Problem solving skills icon"
+                  />
+                  <h6 className="pt-1 pl-4 font-bold text-midnight">
+                    Problem-solving and critical thinking skills
+                  </h6>
+                </div>
               </div>
             </div>
             <div>
