@@ -32,12 +32,16 @@
   --h5-line-height: 32px;
 
   /* --- H6 size --- */
-  --h5-size: 1rem;
-  --h5-line-height: 24px;
+  --h6-size: 1rem;
+  --h6-line-height: 24px;
 
   /* --- paragraph size --- */
   --paragraph-size: 1.25rem;
-  --paragraph-line-height: 28px;
+  --paragraph-line-height: 24px;
+
+  /*---  Body Size  ---*/
+  --body-size: 1rem;
+  --line-height: 24px;
 }
 h1 {
   font-size: var(--diplay-size);
@@ -75,8 +79,8 @@ p {
     --h3-line-height: 40px;
 
     /* --- H2 size --- */
-    --h2-size: 2.2rem;
-    --h2-line-height: 42px;
+    --h2-size: 2rem;
+    --h2-line-height: 36px;
 
     /* --- H4 size --- */
     --h4-size: 1.25rem;
@@ -158,8 +162,9 @@ object {
   margin: 0 auto;
 }
 .text-centered-container {
-  width: 75vw;
+  width: 70vw;
   margin: 0 auto;
+  text-align: center;
 }
 .full-width-container {
   width: 100vw;
@@ -180,6 +185,9 @@ object {
   display: inline;
   font-size: 1rem;
   line-height: 20px;
+}
+.image-container {
+  object-fit: cover;
 }
 .button {
   background-color: transparent;
@@ -255,6 +263,14 @@ object {
   .benefits-list {
     width: 60vw;
   }
+  .text-centered-container {
+    width: 90vw;
+    margin: 0 auto;
+  }
+  .image-container {
+    object-fit: cover;
+    width: 100vw;
+  }
 }
 @media screen and (max-width: 411px) {
   .hero-container {
@@ -279,5 +295,9 @@ object {
   }
   .benefits-list {
     width: 90vw;
+  }
+  .text-centered-container {
+    width: 94vw;
+    margin: 0 auto;
   }
 }
