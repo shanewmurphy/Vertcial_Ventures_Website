@@ -4,7 +4,7 @@ export default function Adventure() {
     <div>
       <div className="full-width-container">
         <div className="my-container">
-          <div className="grid lg:grid-cols-2 sm:grid-col-1 xl:mt-32 lg:mt-32 md:mt-16 xxs:mt-12  pb-32 gap-14">
+          <div className="grid lg:grid-cols-2 sm:grid-col-1 xl:mt-32 lg:mt-32 md:mt-16 xxs:mt-12 pb-32 gap-14">
             <div>
               <h2 className="font-black text-midnight mb-4">
                 Discover a new passion with indoor rock climbing
@@ -13,12 +13,28 @@ export default function Adventure() {
                 Offer a comprehensive approach to rock climbing, including gear,
                 training, and instruction.
               </h4>
-              <div className="mt-4">
-                <ul className="bullet-point-list">
-                  <li className="pt-2 pb-2">All ages and experience level</li>
-                  <li className="pt-2 pb-2">Fun and challenging routes</li>
-                  <li className="pt-2 pb-2">Friendly and helpful staff</li>
-                </ul>
+              <div className="mt-6">
+                <div className="flex benefits-list p-2">
+                  <Image
+                    src="/imgs/routes_B.png"
+                    width={75}
+                    height={56}
+                    alt="routes icon"
+                  />
+                  <h6 className="pt-4 pl-4 font-medium">
+                    Fun and challenging routes
+                  </h6>
+                </div>
+                <div className="flex benefits-list p-2">
+                  <Image
+                    src="/imgs/Staff_C.png"
+                    width={75}
+                    height={47}
+                    alt="Staff icon"
+                  />
+                  <h6 className="pt-2 pl-4 font-medium">BB</h6>
+                </div>
+                <div>CC</div>
               </div>
             </div>
             <div>
