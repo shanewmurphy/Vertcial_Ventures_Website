@@ -5,14 +5,14 @@ export default function Intro() {
       <div className="my-container">
         <div className="grid lg:grid-cols-2 sm:grid-col-1 gap-14">
           <div>
-            <h2 className="text-slateblue font-black mb-2 xl:mt-12 md:mt-6 sm:mt-4 antialiased">
+            <h2 className="text-slateblue font-black mb-4 xl:mt-12 md:mt-6 sm:mt-4 antialiased">
               Vertical Ventures is the only indoor rock climbing facility in
               Cork
             </h2>
-            <h4 className="text-white font-bold antialiased">
+            <h4 className="text-white mb-2 font-bold antialiased">
               Improve your strength, balance, and flexibility with every climb
             </h4>
-            <p className="text-white pt-2 font-normal antialiased">
+            <p className="text-white font-normal antialiased">
               Our experienced staff is here to support and encourage you every
               step of the way. Learn from experienced instructors and take your
               climbing to the next level.

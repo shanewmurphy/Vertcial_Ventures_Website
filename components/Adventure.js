@@ -6,7 +6,7 @@ export default function Adventure() {
         <div className="my-container">
           <div className="grid lg:grid-cols-2 sm:grid-col-1 xl:mt-32 lg:mt-32 md:mt-16 xxs:mt-12  pb-32 gap-14">
             <div>
-              <h2 className="font-black text-midnight mb-2">
+              <h2 className="font-black text-midnight mb-4">
                 Discover a new passion with indoor rock climbing
               </h2>
               <h4 className="text-darkblue font-bold antialiased">
