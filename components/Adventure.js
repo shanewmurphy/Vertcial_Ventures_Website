@@ -16,7 +16,7 @@ export default function Adventure() {
               <div className="mt-6">
                 <div className="flex benefits-list p-2">
                   <Image
-                    src="/imgs/routes_B.png"
+                    src="/imgs/routes_X.png"
                     width={75}
                     height={56}
                     alt="routes icon"
