@@ -13,38 +13,48 @@ export default function Adventure() {
                 Offer a comprehensive approach to rock climbing, including gear,
                 training, and instruction.
               </h4>
-              <div className="mt-6">
-                <div className="flex benefits-list p-2">
+              <div className="flex items-center benefits-list p-2 mt-6">
+                <div>
                   <Image
                     src="/imgs/Routes_A.png"
                     width={65}
                     height={50}
                     alt="routes icon"
                   />
-                  <h6 className="pt-3 pl-4 font-bold text-midnight">
+                </div>
+                <div className="w-64">
+                  <h6 className="pl-4 font-bold text-midnight">
                     Fun and challenging routes
                   </h6>
                 </div>
-                <div className="flex benefits-list p-2">
+              </div>
+              <div className="flex items-center benefits-list p-2 mt-3">
+                <div>
                   <Image
                     src="/imgs/Staff_A.png"
                     width={65}
                     height={50}
                     alt="Staff icon"
                   />
+                </div>
+                <div>
                   <h6 className="pt-3 pl-4 font-bold text-midnight">
                     Friendly and helpful staff
                   </h6>
                 </div>
-                <div className="flex benefits-list p-2">
+              </div>
+              <div className="flex items-center benefits-list p-2 mt-3">
+                <div>
                   <Image
                     src="/imgs/Problem_A.png"
                     width={65}
                     height={50}
                     alt="Problem solving skills icon"
                   />
-                  <h6 className="pt-1 pl-4 font-bold text-midnight">
-                    Problem-solving and critical thinking skills
+                </div>
+                <div>
+                  <h6 className="pt-3 pl-4 font-bold text-midnight">
+                    Critical thinking skills
                   </h6>
                 </div>
               </div>

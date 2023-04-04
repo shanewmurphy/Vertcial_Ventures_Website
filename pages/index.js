@@ -4,6 +4,7 @@ import Hero from "../components/Hero";
 import Intro from "../components/Intro";
 import Adventure from "../components/Adventure";
 import Facility from "../components/Facility";
+import Pricing from "../components/Pricing-tables";
 export default function Home() {
   return (
     <div>
@@ -19,6 +20,9 @@ export default function Home() {
       </div>
       <div>
         <Facility />
+      </div>
+      <div className="container mx-auto">
+        <Pricing />
       </div>
     </div>
   );

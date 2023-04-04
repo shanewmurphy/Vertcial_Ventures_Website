@@ -32,7 +32,7 @@
   --h5-line-height: 32px;
 
   /* --- H6 size --- */
-  --h6-size: 1rem;
+  --h6-size: 1.25rem;
   --h6-line-height: 24px;
 
   /* --- paragraph size --- */
@@ -75,12 +75,16 @@ p {
     --display-line-height: 48px;
 
     /* --- H1 size --- */
-    --h3-size: 1.563rem;
-    --h3-line-height: 40px;
+    --h1-size: 3.052rem;
+    --h1-line-height: 64px;
 
     /* --- H2 size --- */
     --h2-size: 2rem;
     --h2-line-height: 36px;
+
+    /* --- H3 size --- */
+    --h3-size: 1.563rem;
+    --h3-line-height: 40px;
 
     /* --- H4 size --- */
     --h4-size: 1.25rem;
@@ -96,10 +100,6 @@ p {
     /* --- Display size --- */
     --diplay-size: 2.441rem;
     --display-line-height: 48px;
-
-    /* --- H2 size --- */
-    --h2-size: 1.953rem;
-    --h2-line-height: 38px;
 
     /* --- H1 size --- */
     --h3-size: 1.563rem;
@@ -142,6 +142,7 @@ iframe,
 embed,
 object {
   display: block;
+  background-size: cover;
 }
 
 .hero-container {
