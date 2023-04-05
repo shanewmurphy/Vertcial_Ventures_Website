@@ -31,6 +31,8 @@ module.exports = {
         gray: "#49525a",
         slateblue: "#6871fe",
         darkblue: "#1F224C",
+        bluenavy: "#34397f",
+        buttontextcolor: "#49EAFE",
       },
     },
   },

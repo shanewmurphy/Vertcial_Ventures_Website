@@ -5,6 +5,7 @@ import Intro from "../components/Intro";
 import Adventure from "../components/Adventure";
 import Facility from "../components/Facility";
 import Pricing from "../components/Pricing-tables";
+import PricingMobile from "../components/Pricing-tables-mobile";
 export default function Home() {
   return (
     <div>
@@ -21,8 +22,11 @@ export default function Home() {
       <div>
         <Facility />
       </div>
-      <div className="container mx-auto">
+      <div className="my-container pricing-table-desktop">
         <Pricing />
+      </div>
+      <div className="pricing-table-mobile">
+        <PricingMobile />
       </div>
     </div>
   );
