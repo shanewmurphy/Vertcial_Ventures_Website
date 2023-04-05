@@ -44,6 +44,7 @@ export default function Climbs() {
                 src="/imgs/Roped_Climbing-min.png"
                 width={638}
                 height={428}
+                alt="Roped climbing vertical Ventures "
               />
               <h3 className="text-center font-bold mt-2 mb-1 text-midnight">
                 Roped Climbing

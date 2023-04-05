@@ -207,13 +207,13 @@ export default function Pricing() {
                             <div className="mt-4 mb-8">
                               <p className="font-medium text-midnight">
                                 <small>
-                                  Now you’re getting into the big league. Lead
-                                  climbing is the top of the indoor climbing
-                                  food chain and the next step on your climbing
-                                  progression. Let our staff teach you the
-                                  essential safety techniques you’ll need to
-                                  tackle the biggest and most impressive lead
-                                  lines you.
+                                  Now you&apos;re getting into the big league.
+                                  Lead climbing is the top of the indoor
+                                  climbing food chain and the next step on your
+                                  climbing progression. Let our staff teach you
+                                  the essential safety techniques you&apos;ll
+                                  need to tackle the biggest and most impressive
+                                  lead lines you.
                                 </small>
                               </p>
                             </div>
