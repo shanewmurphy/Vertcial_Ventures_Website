@@ -19,26 +19,26 @@ export default function PricingMobile() {
             <Tab
               className={({ selected }) =>
                 classNames(
-                  "mr-3 w-64 bg-bluenavy rounded-md  md:text-lg xxs:text-xs p-3",
+                  "mr-3 w-64 bg-bluenavy font-bold rounded-md  md:text-lg xxs:text-xs p-3",
                   selected
                     ? "bg-bluenavy  text-buttontextcolor"
                     : "bg-white text-midnight"
                 )
               }
             >
-              Beginners Programs
+              Beginners
             </Tab>
             <Tab
               className={({ selected }) =>
                 classNames(
-                  "mr-3 w-64 bg-bluenavy rounded-md text-sm p-3",
+                  "mr-3 w-64 bg-bluenavy font-bold  rounded-md text-sm p-3",
                   selected
                     ? "bg-bluenavy  text-buttontextcolor"
                     : "bg-white text-midnight"
                 )
               }
             >
-              Advanced Programs
+              Advanced
             </Tab>
           </Tab.List>
           <Tab.Panels>
