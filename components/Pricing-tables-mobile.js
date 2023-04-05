@@ -1,11 +1,11 @@
-import { useState, Fragment } from "react";
+import { useState, useRef, Fragment } from "react";
 import { Tab } from "@headlessui/react";
 import classNames from "classnames";
-import { Pagination } from "swiper";
 
 import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
 import "swiper/css";
-import "swiper/css/pagination";
 
 export default function PricingMobile() {
   return (
@@ -45,18 +45,16 @@ export default function PricingMobile() {
           </Tab.List>
           <Tab.Panels>
             <Tab.Panel>
-              <Swiper
-                spaceBetween={10}
-                slidesPerView={"auto"}
-                onSlideChange={() => console.log("slide change")}
-                onSwiper={(swiper) => console.log(swiper)}
-              >
-                <SwiperSlide className="mt-8">
+              <Swiper slidesPerView={"auto"} spaceBetween={30}>
+                <SwiperSlide className="mt-8 mb-24">
                   <div className="price-card-mobile"></div>
                 </SwiperSlide>
-                <SwiperSlide>Slide 2</SwiperSlide>
-                <SwiperSlide>Slide 3</SwiperSlide>
-                <SwiperSlide>Slide 4</SwiperSlide>
+                <SwiperSlide className="mt-8 mb-24">
+                  <div className="price-card-mobile"></div>
+                </SwiperSlide>
+                <SwiperSlide className="mt-8 mb-24">
+                  <div className="price-card-mobile"></div>
+                </SwiperSlide>
               </Swiper>
             </Tab.Panel>
             <Tab.Panel>Content 2</Tab.Panel>

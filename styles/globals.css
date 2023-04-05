@@ -251,15 +251,22 @@ object {
 }
 .price-card-mobile {
   width: 80vw;
-  height: 70vh;
+  height: 80vh;
   background-color: #f44336;
-  margin-right: 25px;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
 }
 
 .swiper-slide {
+  flex-shrink: 1 !important;
   text-align: center;
   font-size: 18px;
   background: #fff;
+
+  /* Center slide text vertically */
   display: flex;
   justify-content: center;
   align-items: center;
