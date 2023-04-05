@@ -68,7 +68,7 @@ export default function Pricing() {
                                 <small>
                                   Bouldering is fun, social and a great way to
                                   keep fit and healthy as it involves full body
-                                  exercise! If you're psyched to try it out and
+                                  exercise. If you're psyched to try it out and
                                   join our community then this is the option for
                                   you.
                                 </small>
@@ -200,7 +200,7 @@ export default function Pricing() {
                             </h4>
                             <div className="mt-4">
                               <h5 className="font-bold text-midnight uppercase">
-                                safety techniques you’ll need to tackle our
+                                safety techniques you&apos;ll need to tackle our
                                 impressive lead lines
                               </h5>
                             </div>
