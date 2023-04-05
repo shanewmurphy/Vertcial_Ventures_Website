@@ -21,7 +21,7 @@ export default function PricingMobile() {
             <Tab
               className={({ selected }) =>
                 classNames(
-                  "mr-3 w-64 bg-bluenavy font-bold text-lg rounded-md p-3",
+                  "mr-3 w-64 bg-bluenavy font-medium text-lg rounded-md p-3",
                   selected
                     ? "bg-bluenavy  text-buttontextcolor"
                     : "bg-white text-midnight"
@@ -33,7 +33,7 @@ export default function PricingMobile() {
             <Tab
               className={({ selected }) =>
                 classNames(
-                  "mr-3 w-64 bg-bluenavy font-bold text-lg  rounded-md p-3",
+                  "mr-3 w-64 bg-bluenavy font-medium text-lg  rounded-md p-3",
                   selected
                     ? "bg-bluenavy  text-buttontextcolor"
                     : "bg-white text-midnight"
