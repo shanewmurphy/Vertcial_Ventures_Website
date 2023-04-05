@@ -59,7 +59,7 @@ export default function Pricing() {
                             <small>
                               Bouldering is fun, social and a great way to keep
                               fit and healthy as it involves full body exercise!
-                              If you're psyched to try it out and join our
+                              If you&apos;re psyched to try it out and join our
                               community then this is the option for you.
                             </small>
                           </p>
