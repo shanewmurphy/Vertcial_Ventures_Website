@@ -217,7 +217,6 @@ object {
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 .pricing-card-container {
-  width: 28.555vw;
   height: 90vh;
   background-color: white;
   border-radius: 12px;
@@ -226,13 +225,13 @@ object {
 }
 .pricing-card-container h5 {
   max-width: 25vw;
-  min-height: 60px;
+  min-height: 40px;
   text-align: center !important;
   margin: 0 auto !important;
   font-size: 1rem;
 }
 .pricing-card-container h6 {
-  max-width: 20vw;
+  max-width: 25vw;
   margin: 0 auto !important;
 }
 .pricing-card-container p {
@@ -249,6 +248,32 @@ object {
 }
 .text-highlight {
   color: #f44336;
+}
+.price-card-mobile {
+  width: 80vw;
+  height: 70vh;
+  background-color: #f44336;
+  margin-right: 25px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-slide {
+  width: 80%;
 }
 .book-btn {
   width: 20vw;

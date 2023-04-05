@@ -1,9 +1,11 @@
 import { useState, Fragment } from "react";
 import { Tab } from "@headlessui/react";
 import classNames from "classnames";
+import { Pagination } from "swiper";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
+import "swiper/css/pagination";
 
 export default function PricingMobile() {
   return (
@@ -19,7 +21,7 @@ export default function PricingMobile() {
             <Tab
               className={({ selected }) =>
                 classNames(
-                  "mr-3 w-64 bg-bluenavy font-bold rounded-md  md:text-lg xxs:text-xs p-3",
+                  "mr-3 w-64 bg-bluenavy font-bold text-lg rounded-md p-3",
                   selected
                     ? "bg-bluenavy  text-buttontextcolor"
                     : "bg-white text-midnight"
@@ -31,7 +33,7 @@ export default function PricingMobile() {
             <Tab
               className={({ selected }) =>
                 classNames(
-                  "mr-3 w-64 bg-bluenavy font-bold  rounded-md text-sm p-3",
+                  "mr-3 w-64 bg-bluenavy font-bold text-lg  rounded-md p-3",
                   selected
                     ? "bg-bluenavy  text-buttontextcolor"
                     : "bg-white text-midnight"
@@ -42,7 +44,21 @@ export default function PricingMobile() {
             </Tab>
           </Tab.List>
           <Tab.Panels>
-            <Tab.Panel>Content 1</Tab.Panel>
+            <Tab.Panel>
+              <Swiper
+                spaceBetween={10}
+                slidesPerView={"auto"}
+                onSlideChange={() => console.log("slide change")}
+                onSwiper={(swiper) => console.log(swiper)}
+              >
+                <SwiperSlide className="mt-8">
+                  <div className="price-card-mobile"></div>
+                </SwiperSlide>
+                <SwiperSlide>Slide 2</SwiperSlide>
+                <SwiperSlide>Slide 3</SwiperSlide>
+                <SwiperSlide>Slide 4</SwiperSlide>
+              </Swiper>
+            </Tab.Panel>
             <Tab.Panel>Content 2</Tab.Panel>
           </Tab.Panels>
         </Tab.Group>
