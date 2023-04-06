@@ -49,12 +49,12 @@ export default function PricingMobile() {
                 <SwiperSlide className="mt-8 mb-24">
                   <div className="price-card-mobile">
                     <div>
-                      <h5 className="font-bold sm:text-text-base mt-8 text-bluenavy antialiased">
+                      <h5 className="font-bold md:text-3xl sm:text-base pt-8 text-bluenavy antialiased">
                         Bouldering Induction
                       </h5>
                     </div>
                     <div className="mt-2">
-                      <h6 className="font-bold md:text-2xl sm:text-sm text-midnight uppercase">
+                      <h6 className="font-bold md:text-2xl xs:text-xs text-midnight uppercase">
                         30 mins on small lower walls
                       </h6>
                     </div>

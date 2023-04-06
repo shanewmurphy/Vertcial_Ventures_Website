@@ -225,7 +225,6 @@ object {
 }
 .pricing-card-container h5 {
   max-width: 25vw;
-  min-height: 40px;
   text-align: center !important;
   margin: 0 auto !important;
   font-size: 1rem;
@@ -243,14 +242,13 @@ object {
   margin: 0 auto !important;
 }
 .pricing-card-container span {
-  font-size: 28px;
   color: #494fb2;
 }
 .text-highlight {
   color: #f44336;
 }
 .price-card-mobile {
-  width: 70vw;
+  width: 76vw;
   height: 80vh;
   border-radius: 8px;
   background-color: white;

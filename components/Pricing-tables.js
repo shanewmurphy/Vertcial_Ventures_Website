@@ -54,7 +54,7 @@ export default function Pricing() {
                             30 mins on small lower walls
                           </h5>
                         </div>
-                        <div className="mt-2 mb-4">
+                        <div className="mt-6 mb-4">
                           <p className="font-medium text-midnight">
                             <small>
                               Bouldering is fun, social and a great way to keep
@@ -64,17 +64,13 @@ export default function Pricing() {
                             </small>
                           </p>
                         </div>
-                        <div>
-                          <h6 className="font-bold text-midnight antialiased">
-                            Inductions include instruction and entry after your
-                            session so you can keep climbing at no extra cost!
-                          </h6>
-                        </div>
                         <div className="mt-8">
                           <h6 className="font-bold text-lg text-midnight antialiased">
                             Per Participants
                           </h6>
-                          <span className="font-bold antialiased">€30</span>
+                          <span className="font-bold text-4xl antialiased">
+                            €30
+                          </span>
                         </div>
                       </div>
                       <div className="flex">
@@ -95,7 +91,7 @@ export default function Pricing() {
                             1 Hour Roped Climbing Taster
                           </h5>
                         </div>
-                        <div className="mt-2 mb-4">
+                        <div className="mt-6 mb-4">
                           <p className="font-medium text-midnight antialiased">
                             <small>
                               Our taster session is a one hour guided tour of
@@ -109,7 +105,9 @@ export default function Pricing() {
                           <h6 className="font-bold text-lg text-midnight">
                             2 Participants
                           </h6>
-                          <span className="font-bold antialiased">€55</span>
+                          <span className="font-bold text-4xl antialiased">
+                            €55
+                          </span>
                         </div>
                       </div>
                       <div className="flex">
@@ -130,7 +128,7 @@ export default function Pricing() {
                             Full centre Induction
                           </h5>
                         </div>
-                        <div className="mt-2 mb-4">
+                        <div className="mt-6 mb-4">
                           <p className="font-medium text-midnight antialiased">
                             <small>
                               Our Full Centre Induction is perfect for people
@@ -144,7 +142,9 @@ export default function Pricing() {
                           <h6 className="font-bold text-lg text-midnight antialiased">
                             2 Participants
                           </h6>
-                          <span className="font-bold antialiased">€100</span>
+                          <span className="font-bold text-4xl antialiased">
+                            €100
+                          </span>
                         </div>
                       </div>
                       <div className="flex">
@@ -175,7 +175,7 @@ export default function Pricing() {
                             Duration 1.5hrs
                           </h5>
                         </div>
-                        <div className="mt-2 mb-4">
+                        <div className="mt-6 mb-4">
                           <p className="font-medium text-midnight antialiased">
                             <small>
                               Now you&apos;re getting into the big league. Lead
@@ -191,7 +191,9 @@ export default function Pricing() {
                           <h6 className="font-bold text-lg text-midnight antialiased">
                             2 Participants
                           </h6>
-                          <span className="font-bold antialiased">€70</span>
+                          <span className="font-bold text-4xl antialiased">
+                            €70
+                          </span>
                         </div>
                       </div>
                       <div className="flex">
@@ -231,7 +233,9 @@ export default function Pricing() {
                           <h6 className="font-bold text-lg text-midnight antialiased">
                             2 Participants
                           </h6>
-                          <span className="font-bold antialiased">€100</span>
+                          <span className="font-bold text-4xl antialiased">
+                            €100
+                          </span>
                         </div>
                       </div>
                       <div className="flex">
@@ -272,7 +276,9 @@ export default function Pricing() {
                           <h6 className="font-bold text-lg text-midnight antialiased">
                             2 Participants
                           </h6>
-                          <span className="font-bold antialiased">€120</span>
+                          <span className="font-bold text-4xl antialiased">
+                            €120
+                          </span>
                         </div>
                       </div>
                       <div className="flex">
