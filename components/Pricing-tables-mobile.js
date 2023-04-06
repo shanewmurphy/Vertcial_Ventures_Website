@@ -47,7 +47,18 @@ export default function PricingMobile() {
             <Tab.Panel>
               <Swiper slidesPerView={"auto"} spaceBetween={20}>
                 <SwiperSlide className="mt-8 mb-24">
-                  <div className="price-card-mobile"></div>
+                  <div className="price-card-mobile">
+                    <div>
+                      <h5 className="font-bold sm:text-text-base mt-8 text-bluenavy antialiased">
+                        Bouldering Induction
+                      </h5>
+                    </div>
+                    <div className="mt-2">
+                      <h6 className="font-bold md:text-2xl sm:text-sm text-midnight uppercase">
+                        30 mins on small lower walls
+                      </h6>
+                    </div>
+                  </div>
                 </SwiperSlide>
                 <SwiperSlide className="mt-8 mb-24">
                   <div className="price-card-mobile"></div>

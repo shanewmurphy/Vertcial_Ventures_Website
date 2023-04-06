@@ -45,7 +45,7 @@ export default function Pricing() {
                     <div className="pricing-card-container text-center">
                       <div className="h-3/4">
                         <div>
-                          <h4 className="font-black text-2xl mt-8 text-slateblue antialiased">
+                          <h4 className="font-black text-2xl mt-8 text-bluenavy antialiased">
                             Bouldering Induction
                           </h4>
                         </div>
@@ -71,7 +71,7 @@ export default function Pricing() {
                           </h6>
                         </div>
                         <div className="mt-8">
-                          <h6 className="font-bold text-midnight antialiased">
+                          <h6 className="font-bold text-lg text-midnight antialiased">
                             Per Participants
                           </h6>
                           <span className="font-bold antialiased">€30</span>
@@ -86,7 +86,7 @@ export default function Pricing() {
                     <div className="pricing-card-container text-center">
                       <div className="h-3/4">
                         <div>
-                          <h4 className="font-black text-2xl mt-8 text-slateblue antialiased">
+                          <h4 className="font-black text-2xl mt-8 text-bluenavy antialiased">
                             Large Wall beginners
                           </h4>
                         </div>
@@ -106,7 +106,7 @@ export default function Pricing() {
                           </p>
                         </div>
                         <div className="mt-4">
-                          <h6 className="font-bold text-midnight">
+                          <h6 className="font-bold text-lg text-midnight">
                             2 Participants
                           </h6>
                           <span className="font-bold antialiased">€55</span>
@@ -121,7 +121,7 @@ export default function Pricing() {
                     <div className="pricing-card-container text-center">
                       <div className="h-3/4">
                         <div>
-                          <h4 className="font-black text-2xl mt-8 text-slateblue antialiased">
+                          <h4 className="font-black text-2xl mt-8 text-bluenavy antialiased">
                             Top Rope Induction
                           </h4>
                         </div>
@@ -141,7 +141,7 @@ export default function Pricing() {
                           </p>
                         </div>
                         <div className="mt-4">
-                          <h6 className="font-bold text-midnight antialiased">
+                          <h6 className="font-bold text-lg text-midnight antialiased">
                             2 Participants
                           </h6>
                           <span className="font-bold antialiased">€100</span>
@@ -160,7 +160,7 @@ export default function Pricing() {
                     <div className="pricing-card-container text-center">
                       <div className="h-3/4">
                         <div>
-                          <h4 className="font-black text-2xl mt-8 text-slateblue antialiased">
+                          <h4 className="font-black text-2xl mt-8 text-bluenavy antialiased">
                             Learn to Lean
                           </h4>
                         </div>
@@ -188,7 +188,7 @@ export default function Pricing() {
                           </p>
                         </div>
                         <div className="mt-4">
-                          <h6 className="font-bold text-midnight antialiased">
+                          <h6 className="font-bold text-lg text-midnight antialiased">
                             2 Participants
                           </h6>
                           <span className="font-bold antialiased">€70</span>
@@ -203,7 +203,7 @@ export default function Pricing() {
                     <div className="pricing-card-container text-center">
                       <div className="h-3/4">
                         <div>
-                          <h4 className="font-black text-2xl mt-8 text-slateblue antialiased">
+                          <h4 className="font-black text-2xl mt-8 text-bluenavy antialiased">
                             Advanced Coaching
                           </h4>
                         </div>
@@ -228,7 +228,7 @@ export default function Pricing() {
                           </p>
                         </div>
                         <div className="mt-4">
-                          <h6 className="font-bold text-midnight antialiased">
+                          <h6 className="font-bold text-lg text-midnight antialiased">
                             2 Participants
                           </h6>
                           <span className="font-bold antialiased">€100</span>
@@ -243,7 +243,7 @@ export default function Pricing() {
                     <div className="pricing-card-container text-center">
                       <div className="h-3/4">
                         <div>
-                          <h4 className="font-black text-2xl mt-8 text-slateblue antialiased">
+                          <h4 className="font-black text-2xl mt-8 text-bluenavy antialiased">
                             Tailored Training
                           </h4>
                         </div>
@@ -269,7 +269,7 @@ export default function Pricing() {
                           </p>
                         </div>
                         <div className="mt-4">
-                          <h6 className="font-bold text-midnight antialiased">
+                          <h6 className="font-bold text-lg text-midnight antialiased">
                             2 Participants
                           </h6>
                           <span className="font-bold antialiased">€120</span>
