@@ -25,9 +25,6 @@ export default function Home() {
       <div className="my-container pricing-table-desktop">
         <Pricing />
       </div>
-      <div className="pricing-table-mobile">
-        <PricingMobile />
-      </div>
     </div>
   );
 }

@@ -6,44 +6,8 @@
     background-color: #f7f8fc;
   }
 }
-:root {
-  /* --- Display size --- */
-  --diplay-size: 3.815rem;
-  --display-line-height: 70px;
 
-  /* --- H1 size --- */
-  --h1-size: 3.052rem;
-  --h1-line-height: 64px;
-
-  /* --- H2 size --- */
-  --h2-size: 2.441rem;
-  --h2-line-height: 48px;
-
-  /* --- H3 size --- */
-  --h3-size: 1.953rem;
-  --h3-line-height: 48px;
-
-  /* --- H4 size --- */
-  --h4-size: 1.563rem;
-  --h4-line-height: 35px;
-
-  /* --- H5 size --- */
-  --h5-size: 1.25rem;
-  --h5-line-height: 28px;
-
-  /* --- H6 size --- */
-  --h6-size: 1rem;
-  --h6-line-height: 24px;
-
-  /* --- paragraph size --- */
-  --paragraph-size: 1.25rem;
-  --paragraph-line-height: 24px;
-
-  /*---  Body Size  ---*/
-  --body-size: 1rem;
-  --line-height: 24px;
-}
-h1 {
+/* h1 {
   font-size: var(--diplay-size);
   line-height: var(--display-line-height);
 }
@@ -67,53 +31,8 @@ h5 {
 p {
   font-size: var(--paragraph-size);
   line-height: var(--paragraph-line-height);
-}
-@media screen and (max-width: 411px) {
-  :root {
-    /* --- Display size --- */
-    --diplay-size: 2.441rem;
-    --display-line-height: 48px;
+} */
 
-    /* --- H1 size --- */
-    --h1-size: 3.052rem;
-    --h1-line-height: 64px;
-
-    /* --- H2 size --- */
-    --h2-size: 2rem;
-    --h2-line-height: 36px;
-
-    /* --- H3 size --- */
-    --h3-size: 1.563rem;
-    --h3-line-height: 40px;
-
-    /* --- H4 size --- */
-    --h4-size: 1.25rem;
-    --h4-line-height: 28px;
-
-    /* --- paragraph size --- */
-    --paragraph-size: 1rem;
-    --paragraph-line-height: 24px;
-
-    /*--- small paragraph size --*/
-    --small-paragrpah-size: 0.8rem;
-    --small-paragrpah-line-height: 12px;
-  }
-}
-@media screen and (max-width: 375px) {
-  :root {
-    /* --- Display size --- */
-    --diplay-size: 2.441rem;
-    --display-line-height: 48px;
-
-    /* --- H1 size --- */
-    --h3-size: 1.563rem;
-    --h3-line-height: 40px;
-
-    /* --- H2 size --- */
-    --h4-size: 1.25rem;
-    --h4-line-height: 28px;
-  }
-}
 blockquote,
 dl,
 dd,
@@ -194,12 +113,6 @@ object {
 .image-container {
   object-fit: cover;
 }
-.pricing-table-desktop {
-  display: block;
-}
-.pricing-table-mobile {
-  display: none;
-}
 .tab-background-container {
   display: flex;
   width: 560px;
@@ -215,6 +128,10 @@ object {
   margin-top: 24px;
   border-radius: 12px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.my-dropshadow {
+  box-shadow: 0 4px 57px rgba(58, 76, 102, 0.07),
+    0 -1.5px 4.5px rgba(191, 197, 202, 0.65) inset;
 }
 .pricing-card-container {
   height: 90vh;
@@ -251,8 +168,11 @@ object {
   width: 76vw;
   height: 80vh;
   border-radius: 8px;
-  background-color: white;
-  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  /* background-color: white; */
+  /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
+  background: rgba(247, 249, 252, 0.9);
+  box-shadow: 0 4px 57px rgba(58, 76, 102, 0.07),
+    0 -1.5px 4.5px rgba(191, 197, 202, 0.65) inset;
 }
 
 .swiper {
@@ -372,12 +292,7 @@ object {
     object-fit: cover;
     width: 100vw;
   }
-  .pricing-table-desktop {
-    display: none;
-  }
-  .pricing-table-mobile {
-    display: block;
-  }
+
   .tab-background-mobile-container {
     width: 74vw;
   }

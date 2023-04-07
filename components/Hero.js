@@ -44,11 +44,11 @@ export default function Hero() {
           <div>BBBB</div>
         </div>
         <div className="container pt-8">
-          <h1 className="text-white font-black uppercase antialiased">
+          <h1 className="text-white font-black xl:text-7xl lg:text-6xl md:text-6xl sm:text-4xl xs390:text-4xl xs375:text-4xl uppercase antialiased">
             Cork Indoor <br />
             Rock Climbing
           </h1>
-          <h3 className="text-slateblue mt-1 font-bold antialiased">
+          <h3 className="text-slateblue mt-2 font-bold xl:text-4xl lg:text-3xl md:text-4xl sm:text-2xl xs390:text-2xl antialiased">
             Climbing, Fitness and Fun
           </h3>
           <h4 className="text-white lg:w-1/2 font-medium mt-2 antialiased">
