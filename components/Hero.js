@@ -48,10 +48,10 @@ export default function Hero() {
             Cork Indoor <br />
             Rock Climbing
           </h1>
-          <h3 className="text-slateblue mt-2 font-bold xl:text-4xl lg:text-3xl md:text-4xl sm:text-2xl xs390:text-2xl antialiased">
+          <h3 className="text-slateblue mt-2 font-bold xl:text-4xl lg:text-3xl md:text-3xl sm:text-xl antialiased">
             Climbing, Fitness and Fun
           </h3>
-          <h4 className="text-white lg:w-1/2 font-medium mt-2 antialiased">
+          <h4 className="text-white lg:w-1/2 md:w-2/3 font-medium mt-2 lg:text-2xl md:text-2xl sm:text-xl antialiased">
             Experience the thrill of climbing in a safe and controlled
             environment
           </h4>
