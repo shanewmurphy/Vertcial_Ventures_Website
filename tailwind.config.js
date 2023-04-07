@@ -19,9 +19,10 @@ module.exports = {
         ],
       },
       screens: {
-        sm: "411px",
+        sm: "358px",
         xs390: "390px",
         xs375: "375px",
+        xs358: "358px",
       },
       colors: {
         java: "#00DDDE",

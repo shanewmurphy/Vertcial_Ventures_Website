@@ -44,7 +44,7 @@ export default function Hero() {
           <div>BBBB</div>
         </div>
         <div className="container pt-8">
-          <h1 className="text-white font-black xl:text-7xl lg:text-6xl md:text-6xl sm:text-4xl xs390:text-4xl xs375:text-4xl uppercase antialiased">
+          <h1 className="text-white font-black xl:text-7xl lg:text-6xl md:text-6xl sm:text-4xl uppercase antialiased">
             Cork Indoor <br />
             Rock Climbing
           </h1>
