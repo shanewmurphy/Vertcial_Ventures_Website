@@ -48,7 +48,7 @@ export default function Hero() {
             Cork Indoor <br />
             Rock Climbing
           </h1>
-          <h3 className="text-slateblue mt-2 font-bold xl:text-4xl lg:text-3xl md:text-3xl sm:text-xl antialiased">
+          <h3 className="text-slateblue mt-2 font-bold xl:text-4xl lg:text-3xl md:text-3xl sm:text-2xl antialiased">
             Climbing, Fitness and Fun
           </h3>
           <h4 className="text-white lg:w-1/2 md:w-2/3 font-medium mt-2 lg:text-2xl md:text-2xl sm:text-xl antialiased">
@@ -66,7 +66,7 @@ export default function Hero() {
                 </div>
               </div>
             </div>
-            <div className="flex gap-3.5 mt-8 xl:visible lg:visible md:visible xxs:invisible">
+            <div className="flex gap-3.5 mt-8 xl:visible lg:visible md:visible sm:invisible">
               <div>
                 <Image
                   src="/imgs/Google_Profiles.png"

@@ -10,19 +10,8 @@ module.exports = {
       fontFamily: {
         sans: ["var(--font-inter)"],
       },
-      fontSize: {
-        display: [
-          "3rem",
-          {
-            lineHeight: "3.5rem",
-          },
-        ],
-      },
       screens: {
         sm: "358px",
-        xs390: "390px",
-        xs375: "375px",
-        xs358: "358px",
       },
       colors: {
         java: "#00DDDE",

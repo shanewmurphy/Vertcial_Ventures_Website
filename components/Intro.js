@@ -5,7 +5,7 @@ export default function Intro() {
       <div className="my-container">
         <div className="grid lg:grid-cols-2 sm:grid-col-1 gap-14">
           <div>
-            <h2 className="text-slateblue font-black mb-4 xl:mt-12 md:mt-6 sm:mt-4 antialiased">
+            <h2 className="text-slateblue font-black xl:text-6xl lg:text-4xl md:text-4xl sm:text-3xl mb-6 antialiased">
               Vertical Ventures is the only indoor rock climbing facility in
               Cork
             </h2>
