@@ -3,7 +3,7 @@ export default function Intro() {
   return (
     <div className="full-width-container bg-midnight pb-32">
       <div className="my-container">
-        <div className="grid lg:grid-cols-2 sm:grid-col-1 gap-20">
+        <div className="grid lg:grid-cols-2 sm:grid-col-1 gap-20 xl:mt-24">
           <div>
             <h2 className="text-slateblue font-black xl:text-5xl lg:text-4xl md:text-5xl sm:text-4xl mb-4 antialiased">
               Vertical Ventures is the only indoor rock climbing facility in
