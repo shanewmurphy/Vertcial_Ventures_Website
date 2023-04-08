@@ -5,12 +5,12 @@ export default function Climbs() {
     <div>
       <div className="my-container">
         <div className="text-centered-container xl:mt-32 lg:mt-32 md:mt-16 xxs:mt-12">
-          <h2 className="text-center font-black text-midnight mb-2 antialiased">
+          <h2 className="text-center font-black text-midnight xl:text-5xl lg:text-4xl md:text-4xl sm:text-2xl mb-4 antialiased">
             Our facilities have walls of different heights ranging from 3 to 32
             feet
           </h2>
           <div>
-            <h5 className="text-center text-gray font-bold">
+            <h5 className="text-center text-gray font-medium xl:text-2xl lg:text-2xl md:text-3xl sm:text-1xl">
               With over 10,000 square feet of climbing opportunities,
               there&apos;s lots to choose from
             </h5>
