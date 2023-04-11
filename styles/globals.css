@@ -7,32 +7,6 @@
   }
 }
 
-/* h1 {
-  font-size: var(--diplay-size);
-  line-height: var(--display-line-height);
-}
-h2 {
-  font-size: var(--h2-size);
-  line-height: var(--h2-line-height);
-}
-h3 {
-  font-size: var(--h3-size);
-  line-height: var(--h3-line-height);
-}
-h4 {
-  font-size: var(--h4-size);
-  line-height: var(--h4-line-height);
-}
-h5 {
-  font-size: var(--h5-size);
-  line-height: var(--h5-line-height);
-  font-weight: 600;
-}
-p {
-  font-size: var(--paragraph-size);
-  line-height: var(--paragraph-line-height);
-} */
-
 blockquote,
 dl,
 dd,
@@ -111,6 +85,9 @@ object {
   line-height: 20px;
 }
 .image-container {
+  width: 100vw;
+  height: auto;
+  background-size: cover;
   object-fit: cover;
 }
 .tab-background-container {

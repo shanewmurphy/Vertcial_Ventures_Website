@@ -4,7 +4,7 @@ export default function Climbs() {
   return (
     <div>
       <div className="my-container">
-        <div className="text-centered-container xl:mt-32 lg:mt-32 md:mt-16 xxs:mt-12">
+        <div className="text-centered-container xl:mt-32 lg:mt-32 md:mt-16 sm:mt-20">
           <h2 className="text-center font-black text-midnight xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl mb-4 antialiased">
             Our facilities have walls of different heights ranging from 3 to 32
             feet
@@ -26,16 +26,14 @@ export default function Climbs() {
                 height={428}
                 alt="Boulding walls Ventical Ventures"
               />
-              <h3 className="text-center font-bold mt-2 mb-1 text-midnight">
+              <h3 className="text-center font-bold xl:text-4xl lg:text-4xl md:text-4xl sm:text-3xl mt-4 mb-2 text-midnight">
                 Bouldering
               </h3>
-              <p className="font-medium text-darkblue">
-                <small>
-                  150m2 of climbing surface offering a variety of terrain in one
-                  area, it&apos;s made up of slab climbing and slightly off
-                  vertical terrain on the sides, and steep climbing with unique,
-                  dramatic angles a prow and a cave feature.
-                </small>
+              <p className="font-medium text-base leading-normal text-darkblue">
+                150m2 of climbing surface offering a variety of terrain in one
+                area, it&apos;s made up of slab climbing and slightly off
+                vertical terrain on the sides, and steep climbing with unique,
+                dramatic angles a prow and a cave feature.
               </p>
             </div>
             <div className="mt-8">
@@ -46,16 +44,14 @@ export default function Climbs() {
                 height={428}
                 alt="Roped climbing vertical Ventures "
               />
-              <h3 className="text-center font-bold mt-2 mb-1 text-midnight">
+              <h3 className="text-center font-bold xl:text-4xl lg:text-4xl md:text-4xl sm:text-3xl mt-2 mb-2 text-midnight">
                 Roped Climbing
               </h3>
-              <p className="font-medium text-darkblue">
-                <small>
-                  Our rope climbing area has walls 10m high, with route lengths
-                  up to 14m in area&apos;s. Offering 500m2 of climbing, it
-                  features 32 lines, 28 of which can be led, 12 lines
-                  pre-equipped with Top Ropes.
-                </small>
+              <p className="font-medium text-base leading-normal text-darkblue">
+                Our rope climbing area has walls 10m high, with route lengths up
+                to 14m in area&apos;s. Offering 500m2 of climbing, it features
+                32 lines, 28 of which can be led, 12 lines pre-equipped with Top
+                Ropes.
               </p>
             </div>
           </div>
