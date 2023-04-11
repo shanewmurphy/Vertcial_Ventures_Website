@@ -5,7 +5,7 @@ export default function Pricing() {
   return (
     <div>
       <div className="text-centered-container">
-        <h2 className="font-black text-midnight mb-2">
+        <h2 className="font-black xl:text-4xl lg:text-4xl md:text-3xl sm:text-2xl text-midnight mb-2">
           Pre-Booking is essential for all our Tasters & Courses
         </h2>
       </div>
@@ -17,14 +17,14 @@ export default function Pricing() {
                 <Tab
                   className={({ selected }) =>
                     classNames(
-                      "mr-3 w-64 bg-bluenavy rounded-md  text-xl p-3",
+                      "mr-3 w-64 bg-bluenavy rounded-md text-xl p-3",
                       selected
                         ? "bg-bluenavy  text-buttontextcolor"
                         : "bg-white text-midnight"
                     )
                   }
                 >
-                  Beginners Programs
+                  Beginners
                 </Tab>
                 <Tab
                   className={({ selected }) =>
@@ -36,7 +36,7 @@ export default function Pricing() {
                     )
                   }
                 >
-                  Advanced Programs
+                  Advanced
                 </Tab>
               </Tab.List>
               <Tab.Panels>

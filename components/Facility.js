@@ -44,7 +44,7 @@ export default function Climbs() {
                 height={428}
                 alt="Roped climbing vertical Ventures "
               />
-              <h3 className="text-center font-bold xl:text-4xl lg:text-4xl md:text-4xl sm:text-3xl mt-2 mb-2 text-midnight">
+              <h3 className="text-center font-bold xl:text-4xl lg:text-4xl md:text-4xl sm:text-3xl mt-4 mb-2 text-midnight">
                 Roped Climbing
               </h3>
               <p className="font-medium text-base leading-normal text-darkblue">
