@@ -5,7 +5,7 @@ import Intro from "../components/Intro";
 import Adventure from "../components/Adventure";
 import Facility from "../components/Facility";
 import Pricing from "../components/Pricing-tables";
-import PricingMobile from "../components/Pricing-tables-mobile";
+import Membership from "../components/Membership";
 export default function Home() {
   return (
     <div>
@@ -24,6 +24,9 @@ export default function Home() {
       </div>
       <div className="my-container pricing-table-desktop">
         <Pricing />
+      </div>
+      <div>
+        <Membership />
       </div>
     </div>
   );
