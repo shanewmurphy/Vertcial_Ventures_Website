@@ -201,7 +201,10 @@ object {
     object-fit: cover;
     width: 100vw;
   }
-
+  .text-centered-container {
+    width: 70vw;
+    margin: 0 auto;
+  }
   .tab-background-mobile-container {
     width: 74vw;
   }
@@ -231,7 +234,7 @@ object {
     width: 90vw;
   }
   .text-centered-container {
-    width: 70vw;
+    width: 80vw;
     margin: 0 auto;
   }
   .tab-background-container {
