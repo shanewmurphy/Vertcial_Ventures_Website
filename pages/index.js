@@ -6,6 +6,7 @@ import Adventure from "../components/Adventure";
 import Facility from "../components/Facility";
 import Pricing from "../components/Pricing-tables";
 import Membership from "../components/Membership";
+import KidsClub from "../components/Kid-Club";
 export default function Home() {
   return (
     <div>
@@ -27,6 +28,9 @@ export default function Home() {
       </div>
       <div>
         <Membership />
+      </div>
+      <div>
+        <KidsClub />
       </div>
     </div>
   );

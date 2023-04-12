@@ -215,7 +215,7 @@ export default function Pricing() {
             </Tab.Group>
           </div>
           <div className="text-centered-container">
-            <h5 className="mt-12 mb-4 font-black text-midnight lg:text-3xl md:text-3xl">
+            <h5 className="mt-12 mb-2 font-black text-midnight lg:text-3xl md:text-3xl">
               Climb for a cause with our fundraising events for local
               non-profits and charities
             </h5>
