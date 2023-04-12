@@ -87,8 +87,11 @@ object {
 .image-container {
   width: 100vw;
   height: auto;
-  background-size: cover;
-  object-fit: cover;
+  object-fit: contain;
+}
+.image-container-kid-club {
+  object-fit: contain;
+  object-position: center right;
 }
 .tab-background-container {
   display: flex;
