@@ -224,7 +224,8 @@ export default function Pricing() {
               <span className="text-slateblue pl-1 pr-1">
                 info@verticalventures.com
               </span>
-              or call us on 0214 547 547
+              or call us on <br />
+              0214 547 547
             </h6>
           </div>
         </div>
