@@ -7,6 +7,7 @@ import Facility from "../components/Facility";
 import Pricing from "../components/Pricing-tables";
 import Membership from "../components/Membership";
 import KidsClub from "../components/Kid-Club";
+import FAQ from "../components/FAQ";
 export default function Home() {
   return (
     <div>
@@ -31,6 +32,9 @@ export default function Home() {
       </div>
       <div>
         <KidsClub />
+      </div>
+      <div>
+        <FAQ />
       </div>
     </div>
   );

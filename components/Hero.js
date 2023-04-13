@@ -57,7 +57,7 @@ export default function Hero() {
           </h4>
           <div>
             <div className="flex mt-6">
-              <div className="grid xl:grid-cols-2 lg:grid-cols-1 gap-4">
+              <div className="grid xl:grid-cols-2 lg:grid-cols-2 gap-4">
                 <div>
                   <button className="button button1">Book Now</button>
                 </div>

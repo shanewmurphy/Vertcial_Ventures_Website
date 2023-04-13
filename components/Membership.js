@@ -14,9 +14,9 @@ export default function Membership() {
           </div>
           <div>
             <h5 className="font-bold text-bluenavy lg:text-2xl md:text-3xl sm:text-lg">
-              6/10 people become a full time Member
+              6/10 people become a full time member
             </h5>
-            <h6 className="font-medium text-midnight mt-2 lg:text-1xl">
+            <h6 className="font-medium text-midnight mt-2 xl:text-xl">
               We Use Stripe to Charge your Credit or Debit Card
             </h6>
           </div>

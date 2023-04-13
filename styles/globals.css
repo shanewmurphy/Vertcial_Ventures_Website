@@ -117,6 +117,11 @@ object {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
     rgba(42, 42, 42, 0.3) 0px 1px 3px -1px;
 }
+.faq-container {
+  width: 70vw;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
 .book-btn {
   width: 20vw;
   margin: 0 auto;
@@ -214,6 +219,9 @@ object {
   .tab-background-mobile-container {
     width: 74vw;
   }
+  .faq-container {
+    width: 90vw;
+  }
 }
 @media screen and (max-width: 411px) {
   .hero-container {
@@ -245,5 +253,8 @@ object {
   }
   .tab-background-container {
     width: 90vw;
+  }
+  .faq-container {
+    width: 96vw;
   }
 }

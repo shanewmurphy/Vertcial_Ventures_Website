@@ -64,9 +64,9 @@ export default function Pricing() {
                         </button>
                       </div>
                       <div className="mt-6">
-                        <p className="lg:text-sm md:text-1xl sm:text-sm text-darkblue">
+                        <p className="lg:text-sm md:text-1xl sm:text-sm text-darkblue font-bold antialiased">
                           What is Bouldering?
-                          <span className="pl-2">Learn More</span>
+                          <span className="pl-2 font-medium">Learn More</span>
                         </p>
                       </div>
                     </div>
@@ -91,7 +91,7 @@ export default function Pricing() {
                         </button>
                       </div>
                       <div className="mt-6">
-                        <p className="lg:text-sm md:text-2xl sm:text-sm text-darkblue">
+                        <p className="lg:text-sm md:text-2xl sm:text-sm text-darkblue antialiased">
                           What is Large Wall Climbing?
                           <span className="pl-2">Learn More</span>
                         </p>
@@ -118,7 +118,7 @@ export default function Pricing() {
                         </button>
                       </div>
                       <div className="mt-6 pb-2">
-                        <p className="lg:text-sm md:text-2xl sm:text-sm text-darkblue">
+                        <p className="lg:text-sm md:text-2xl sm:text-sm text-darkblue antialiased">
                           What is Top Rope Climbing?
                           <span className="pl-2">Learn More</span>
                         </p>
@@ -176,7 +176,7 @@ export default function Pricing() {
                         </button>
                       </div>
                       <div className="mt-6 pb-2">
-                        <p className="lg:text-base md:text-2xl sm:text-sm text-darkblue">
+                        <p className="lg:text-base md:text-2xl sm:text-sm text-darkblue antialiased">
                           Advanced Coaching details?
                           <span className="pl-2">Learn More</span>
                         </p>
@@ -203,9 +203,9 @@ export default function Pricing() {
                         </button>
                       </div>
                       <div className="mt-6 pb-2">
-                        <p className="lg:text-sm md:text-2xl sm:text-sm text-darkblue">
+                        <p className="lg:text-sm md:text-2xl sm:text-sm text-darkblue font-bold antialiased">
                           Advanced Coaching details?
-                          <span className="pl-2">Learn More</span>
+                          <span className="pl-2 font-medium">Learn More</span>
                         </p>
                       </div>
                     </div>
