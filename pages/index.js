@@ -7,6 +7,7 @@ import Facility from "../components/Facility";
 import Pricing from "../components/Pricing-tables";
 import Membership from "../components/Membership";
 import KidsClub from "../components/Kid-Club";
+import Amenities from "../components/Amenities";
 import FAQ from "../components/FAQ";
 export default function Home() {
   return (
@@ -32,6 +33,9 @@ export default function Home() {
       </div>
       <div>
         <KidsClub />
+      </div>
+      <div>
+        <Amenities />
       </div>
       <div>
         <FAQ />
