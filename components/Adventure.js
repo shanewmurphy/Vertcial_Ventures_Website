@@ -6,11 +6,11 @@ export default function Adventure() {
         <div className="my-container">
           <div className="grid lg:grid-cols-2 sm:grid-col-1 xl:mt-28 lg:mt-28 md:mt-28 sm:mt-16  gap-20">
             <div>
-              <h2 className="font-black xl:text-5xl lg:text-4xl md:text-5xl sm:text-3xl text-midnight  mb-4">
+              <h2 className="font-black xl:text-5xl lg:text-4xl md:text-5xl sm:text-xl text-midnight mb-2">
                 Unleash your inner adventurer and discover a new passion with
                 indoor rock climbing
               </h2>
-              <h4 className="text-darkblue font-bold lg:text-2xl md:text-3xl sm:text-2xl antialiased">
+              <h4 className="text-darkblue font-bold lg:text-2xl md:text-3xl sm:text-base antialiased">
                 Offer a comprehensive approach to rock climbing, including gear,
                 training, and instruction.
               </h4>

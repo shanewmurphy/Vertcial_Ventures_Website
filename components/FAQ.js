@@ -3,10 +3,14 @@ import { ChevronUpIcon } from "@heroicons/react/20/solid";
 
 export default function FAQ() {
   return (
-    <div className="my-container">
-      <div>KKKK</div>
+    <div>
+      <div className="text-centered-container">
+        <h2 className="font-black text-midnight xl:text-5xl lg:text-4xl md:text-5xl sm:text-3xl">
+          Frequent questions and answers
+        </h2>
+      </div>
       <div className="faq-container">
-        <div className="rounded-2xl lg:w-full md:w-full sm:w-full bg-white p-4">
+        <div className="rounded-2xl w-full bg-white p-4">
           <Disclosure>
             {({ open }) => (
               <>
@@ -30,7 +34,7 @@ export default function FAQ() {
           </Disclosure>
         </div>
 
-        <div className="rounded-2xl lg:w-full md:w-full sm:w-11/12 bg-white p-4">
+        <div className="rounded-2xl w-full bg-white p-4">
           <Disclosure>
             {({ open }) => (
               <>
