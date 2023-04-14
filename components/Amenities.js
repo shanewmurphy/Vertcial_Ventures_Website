@@ -22,37 +22,37 @@ export default function Amenities() {
           <div className="grid grid-cols-3 justify-items-center">
             <div>
               <span class="icon-Coffee_icon lg:text-6xl md:text-5xl sm:text-4xl"></span>
-              <h6 className="mt-2 text-center lg:text-lg md:text-xl sm:text-xs">
+              <h6 className="mt-2 text-center lg:text-base md:text-base sm:text-xs">
                 Coffee
               </h6>
             </div>
             <div>
               <span class="icon-Vending_icon lg:text-6xl md:text-5xl sm:text-4xl"></span>
-              <h6 className="mt-2 text-center lg:text-lg md:text-xl sm:text-xs">
+              <h6 className="mt-2 text-center lg:text-base md:text-base sm:text-xs">
                 Vending Machine
               </h6>
             </div>
             <div>
               <span class="icon-Watercooler_icon lg:text-6xl md:text-5xl sm:text-4xl"></span>
-              <h6 className="mt-2 text-center lg:text-lg md:text-xl sm:text-xs">
+              <h6 className="mt-2 text-center lg:text-base md:text-base sm:text-xs">
                 Water Cooler
               </h6>
             </div>
             <div className="mt-6">
               <span class="icon-Locker_icon lg:text-6xl md:text-5xl sm:text-4xl"></span>
-              <h6 className="mt-2 text-center lg:text-lg md:text-xl sm:text-xs">
+              <h6 className="mt-2 text-center lg:text-base md:text-base sm:text-xs">
                 Secure Lockers
               </h6>
             </div>
             <div className="mt-6">
               <span class="icon-Wifi_icon lg:text-6xl md:text-5xl sm:text-4xl"></span>
-              <h6 className="mt-2 text-center lg:text-lg md:text-xl sm:text-xs">
+              <h6 className="mt-2 text-center lg:text-base md:text-base sm:text-xs">
                 Free Wifi
               </h6>
             </div>
             <div className="mt-6">
               <span class="icon-Parking_icon lg:text-6xl md:text-5xl sm:text-4xl"></span>
-              <h6 className="mt-2 text-center lg:text-lg md:text-xl sm:text-xs">
+              <h6 className="mt-2 text-center lg:text-base md:text-base sm:text-xs">
                 Free Parking
               </h6>
             </div>
