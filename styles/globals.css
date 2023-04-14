@@ -298,7 +298,10 @@ object {
     background-image: url("/imgs/Hero_Mobile_411-min.jpg");
     background-size: cover;
   }
-
+  .my-container {
+    width: 92vw;
+    margin: 0 auto;
+  }
   .nav-desktop {
     display: none;
   }

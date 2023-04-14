@@ -13,6 +13,14 @@ module.exports = {
       screens: {
         sm: "358px",
       },
+      fontSize: {
+        "7xl": [
+          "2.125rem",
+          {
+            lineHeight: "2.8rem",
+          },
+        ],
+      },
       colors: {
         java: "#00DDDE",
         green: "#00997E",

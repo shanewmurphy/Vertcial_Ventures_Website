@@ -6,7 +6,7 @@ export default function Adventure() {
         <div className="my-container">
           <div className="grid lg:grid-cols-2 sm:grid-col-1 xl:mt-28 lg:mt-28 md:mt-28 sm:mt-16  gap-20">
             <div>
-              <h2 className="font-black xl:text-5xl lg:text-5xl md:text-6xl sm:text-3xl text-midnight mb-4">
+              <h2 className="font-black xl:text-5xl lg:text-5xl md:text-6xl sm:text-7xl text-midnight mb-4">
                 Unleash your inner adventurer
               </h2>
               <h3 className="font-bold text-midnight xl:text-4xl lg:text-2xl md:text-4xl sm:text-lg mb-2">
