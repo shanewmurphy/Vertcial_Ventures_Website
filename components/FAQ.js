@@ -147,7 +147,7 @@ export default function FAQ() {
                   low-altitude routes without the use of ropes. Top rope
                   climbing involves climbing a longer route while attached to a
                   rope that runs from an anchor at the top of the wall to the
-                  climber's harness. Bouldering is typically done without a
+                  climber&apos;s harness. Bouldering is typically done without a
                   harness, but with the use of protective pads on the ground.
                 </Disclosure.Panel>
               </>
@@ -194,11 +194,12 @@ export default function FAQ() {
                 </Disclosure.Button>
                 <Disclosure.Panel className="mt-2 px-4 pt-4 pb-2 text-base text-midnight">
                   Proper warm-up and stretching, good technique, and gradually
-                  increasing difficulty levels can help prevent injuries. It's
-                  also important to wear appropriate gear, such as climbing
-                  shoes and a harness, and to follow all safety procedures when
-                  climbing. If you experience pain or discomfort while climbing,
-                  stop immediately and seek medical attention if necessary.
+                  increasing difficulty levels can help prevent injuries.
+                  It&apos;s also important to wear appropriate gear, such as
+                  climbing shoes and a harness, and to follow all safety
+                  procedures when climbing. If you experience pain or discomfort
+                  while climbing, stop immediately and seek medical attention if
+                  necessary.
                 </Disclosure.Panel>
               </>
             )}
