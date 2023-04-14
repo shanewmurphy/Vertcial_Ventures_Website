@@ -295,7 +295,7 @@ object {
     width: 100vw;
     height: 100vh;
     object-fit: cover;
-    background-image: url("/imgs/Hero_Mobile_411-min.jpg");
+    background-image: url("/imgs/Mobile_Hero_B.jpg");
     background-size: cover;
   }
   .my-container {

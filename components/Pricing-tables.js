@@ -215,11 +215,11 @@ export default function Pricing() {
             </Tab.Group>
           </div>
           <div className="text-centered-container">
-            <h5 className="mt-12 mb-2 font-black text-midnight lg:text-3xl md:text-3xl">
+            <h5 className="mt-12 mb-2 font-black text-midnight lg:text-3xl md:text-3xl sm:text-2xl">
               Climb for a cause with our fundraising events for local
               non-profits and charities
             </h5>
-            <h6 className="font-medium lg:text-2xl md:text-2xl text-gray">
+            <h6 className="font-bold lg:text-2xl md:text-2xl sm:text-base text-gray">
               Please drop us an email to
               <span className="text-slateblue pl-1 pr-1">
                 info@verticalventures.com
