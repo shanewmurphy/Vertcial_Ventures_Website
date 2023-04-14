@@ -17,7 +17,7 @@ module.exports = {
         "7xl": [
           "2.125rem",
           {
-            lineHeight: "2.8rem",
+            lineHeight: "2.5rem",
           },
         ],
       },
