@@ -94,16 +94,16 @@ export default function Hero() {
                 <div>
                   <Image
                     src="/imgs/Google_Profiles_mobile.png"
-                    width={122}
-                    height={37}
+                    width={93}
+                    height={30}
                     alt="Google reviews icon"
                   />
                 </div>
                 <div className="mt-1 pl-2">
                   <Image
-                    src="./imgs/Google_Rate_rating_mobile.svg"
-                    width={90}
-                    height={25}
+                    src="./imgs/Star_Rating_Mobile.svg"
+                    width={106}
+                    height={30}
                     alt="Google reviews icon"
                   />
                 </div>
