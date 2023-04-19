@@ -212,7 +212,9 @@ object {
   cursor: pointer;
   border-radius: 32px;
 }
-
+.google-review-container {
+  display: flex;
+}
 .button1 {
   background-color: #6870fe;
   color: white;
@@ -326,5 +328,8 @@ object {
   }
   .faq-container {
     width: 96vw;
+  }
+  .google-review-container {
+    display: none;
   }
 }

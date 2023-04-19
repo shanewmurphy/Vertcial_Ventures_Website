@@ -56,17 +56,19 @@ export default function Hero() {
             environment
           </h4>
           <div>
-            <div className="flex mt-6">
-              <div className="grid xl:grid-cols-2 lg:grid-cols-2 gap-4">
+            <div className="flex lg:mt-6 md:mt-6 sm:mt-6">
+              <div className="grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 gap-4">
                 <div>
                   <button className="button button1">Book Now</button>
                 </div>
-                <div className="lg:pt-4 sm:pt-1 text-white text-bold lg:visible">
-                  <h4 className="hero-number">Call 0214 56874</h4>
+                <div className="lg:pt-4 sm:pt-1 text-white text-bold lg:visible md:visible sm:invisible">
+                  <h4 className="hero-number font-bold text-3xl lg:pt-0 sm:pt-2">
+                    Call 0214 56874
+                  </h4>
                 </div>
               </div>
             </div>
-            <div className="flex gap-3.5 mt-8 xl:visible lg:visible md:visible sm:invisible">
+            <div className="flex gap-3.5 mt-8 xl:visible lg:visible md:visible sm:invisible google-review-container">
               <div>
                 <Image
                   src="/imgs/Google_Profiles.png"
@@ -84,7 +86,27 @@ export default function Hero() {
                 />
               </div>
               <div>
-                <h3 className="text-white font-bold">4.5</h3>
+                <h3 className="text-white font-bold text-4xl">4.5</h3>
+              </div>
+            </div>
+            <div className="lg:invisible md:invisible sm:visible">
+              <div className="flex flex-col">
+                <div>
+                  <Image
+                    src="./imgs/Google_Star_Reviews.svg"
+                    width={122}
+                    height={37}
+                    alt="Google reviews icon"
+                  />
+                </div>
+                <div className="mt-4">
+                  <Image
+                    src="/imgs/Google_Profiles.png"
+                    width={120}
+                    height={39}
+                    alt="Google Profiles"
+                  />
+                </div>
               </div>
             </div>
           </div>
