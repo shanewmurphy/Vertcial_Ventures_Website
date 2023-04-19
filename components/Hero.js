@@ -90,21 +90,21 @@ export default function Hero() {
               </div>
             </div>
             <div className="lg:invisible md:invisible sm:visible">
-              <div className="flex flex-col">
+              <div className="flex flex-row">
                 <div>
                   <Image
-                    src="./imgs/Google_Star_Reviews.svg"
+                    src="/imgs/Google_Profiles_mobile.png"
                     width={122}
                     height={37}
                     alt="Google reviews icon"
                   />
                 </div>
-                <div className="mt-4">
+                <div className="mt-1 pl-2">
                   <Image
-                    src="/imgs/Google_Profiles.png"
-                    width={120}
-                    height={39}
-                    alt="Google Profiles"
+                    src="./imgs/Google_Rate_rating_mobile.svg"
+                    width={90}
+                    height={25}
+                    alt="Google reviews icon"
                   />
                 </div>
               </div>
