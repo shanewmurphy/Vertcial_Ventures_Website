@@ -9,7 +9,7 @@ export default function Adventure() {
               <h2 className="font-black xl:text-5xl lg:text-5xl md:text-6xl sm:text-7xl text-midnight lg:mb-2 md:mb-4 sm:mb-2">
                 Unleash your inner adventurer
               </h2>
-              <h3 className="font-bold text-midnight xl:text-4xl lg:text-2xl md:text-4xl sm:text-2xl lg:mb-2 md:mb-4 sm:mb-2">
+              <h3 className="font-bold text-midnight xl:text-3xl lg:text-2xl md:text-4xl sm:text-2xl lg:mb-4 md:mb-4 sm:mb-2">
                 Discover a new passion in indoor rock climbing
               </h3>
               <h4 className="text-darkblue font-medium lg:text-xl md:text-2xl sm:text-base antialiased">
