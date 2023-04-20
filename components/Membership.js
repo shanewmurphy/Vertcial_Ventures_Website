@@ -1,3 +1,4 @@
+import { checkout } from "../lib/checkout";
 export default function Membership() {
   return (
     <div className="my-container my-dropshadow">
@@ -25,7 +26,19 @@ export default function Membership() {
           <div className="lg:basis-1/3">
             <div className="bg-slate-800 rounded-lg h-44"></div>
             <div className="flex justify-center mt-4">
-              <button className="w-44 h-9 outline border-slate-900 border-1">
+              <button
+                className="w-44 h-9 outline border-slate-900 border-1"
+                onClick={() => {
+                  checkout({
+                    lineItems: [
+                      {
+                        price: "price_1Myy8wKZXFZOoTWJDDva2HEZ",
+                        quantity: 1,
+                      },
+                    ],
+                  });
+                }}
+              >
                 Join Now
               </button>
             </div>
@@ -33,7 +46,10 @@ export default function Membership() {
           <div className="basis-1/3">
             <div className="bg-slate-800 rounded-lg h-44"></div>
             <div className="flex justify-center mt-4">
-              <button className="w-44 h-9 outline border-slate-900 border-1">
+              <button
+                className="w-44 h-9 outline border-slate-900 border-1"
+                onClick={() => console.log("Buy Now")}
+              >
                 Join Now
               </button>
             </div>
@@ -41,7 +57,10 @@ export default function Membership() {
           <div className="basis-1/3">
             <div className="bg-slate-800 rounded-lg h-44"></div>
             <div className="flex justify-center mt-4">
-              <button className="w-44 h-9 outline border-slate-900 border-1">
+              <button
+                className="w-44 h-9 outline border-slate-900 border-1"
+                onClick={() => console.log("Buy Now")}
+              >
                 Join Now
               </button>
             </div>
