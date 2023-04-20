@@ -2,7 +2,7 @@ import Image from "next/image";
 export default function KidsClub() {
   return (
     <div>
-      <div className="my-container">
+      <div className="my-container" id="youthClub">
         <div className="mt-48 mb-48 bg-slateblue rounded-lg h-auto lg:p-12 md:p-12 sm:p-6 content-around">
           <div className="flex lg:flex-row md:flex-col sm:flex-col lg:gap-20 md:gap-10 sm:gap-6">
             <div className="basis-2/4">

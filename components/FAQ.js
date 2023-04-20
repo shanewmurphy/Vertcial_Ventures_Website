@@ -4,7 +4,7 @@ import { ChevronUpIcon } from "@heroicons/react/20/solid";
 export default function FAQ() {
   return (
     <div>
-      <div className="text-centered-container">
+      <div className="text-centered-container" id="FAQ">
         <h2 className="font-black text-midnight xl:text-5xl lg:text-4xl md:text-5xl sm:text-3xl">
           Frequent questions and answers
         </h2>

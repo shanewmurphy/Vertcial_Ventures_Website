@@ -7,10 +7,11 @@ export default function Amenities() {
           <h2 className="font-black text-midnight xl:text-5xl lg:text-4xl md:text-5xl sm:text-3xl mb-2">
             Facility and Amenities
           </h2>
-          <h4 className="font-bold text-midnight xl:text-lg lg:text-2xl md:text-3xl sm:text-2xl mt-2">
-            We provide the essential equipment and facilities to enable anyone
-            with a sense of adventure to try their hand at this supremely
-            enjoyable pastime.
+          <h4 className="font-medium text-midnight xl:text-base lg:text-base md:text-3xl sm:text-2xl mt-2">
+            Comfortable lounge areas: Take a break from climbing and relax in
+            our comfortable lounge areas. We offer free Wi-Fi, refreshments, and
+            a welcoming atmosphere where you can connect with fellow climbers
+            and share your experiences
           </h4>
         </div>
         <div className="basis-2/4">

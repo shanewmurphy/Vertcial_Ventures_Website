@@ -42,9 +42,10 @@ export default function Pricing() {
   };
   return (
     <div>
-      <div className="text-centered-container">
+      <div className="text-centered-container" id="pricing">
         <h2 className="font-black xl:text-4xl lg:text-4xl md:text-3xl sm:text-2xl text-midnight mb-2">
-          Pre-Booking is essential for all our Tasters & Courses
+          <span className="text-bluenavy">Pre-Booking </span>is essential for
+          all our Tasters & Courses
         </h2>
       </div>
       <div>
@@ -80,7 +81,7 @@ export default function Pricing() {
               <Tab.Panels>
                 <Tab.Panel>
                   <div className="grid lg:grid-cols-3 md:grid-rows-1 gap-6 mt-12">
-                    <div className="h-auto lg:p-10 md:p-10 sm:p-6 rounded-md my-dropshadow">
+                    <div className="h-auto lg:p-8 md:p-8 sm:p-4 rounded-md my-dropshadow">
                       <div className="xl:text-2xl lg:text-2xl md:text-4xl sm:text-2xl font-bold text-midnight antialiased">
                         <h4>Bouldering Induction</h4>
                         <span className="font-medium lg:text-xl md:text-2xl sm:text-base mt-6 text-gray">
@@ -101,7 +102,7 @@ export default function Pricing() {
                         </button>
                       </div>
                       <div className="mt-6">
-                        <p className="lg:text-sm md:text-1xl sm:text-sm text-darkblue font-bold antialiased">
+                        <p className="lg:text-sm md:text-lg sm:text-sm sm:mb-4 text-darkblue font-bold antialiased">
                           What is Bouldering?
                           <button
                             className="underline text-yellow-500 pl-2 font-medium"
@@ -154,7 +155,7 @@ export default function Pricing() {
                         </Modal>
                       </div>
                     </div>
-                    <div className="h-auto lg:p-10 md:p-10 sm:p-6 rounded-md my-dropshadow">
+                    <div className="h-auto lg:p-8 md:p-8 sm:p-4 rounded-md my-dropshadow">
                       <div className="xl:text-2xl lg:text-2xl md:text-4xl sm:text-2xl font-bold text-midnight antialiased">
                         <h4>Large Wall Beginners</h4>
                         <span className="font-medium lg:text-xl md:text-2xl sm:text-base mt-6 text-gray">
@@ -175,7 +176,7 @@ export default function Pricing() {
                         </button>
                       </div>
                       <div className="mt-6">
-                        <p className="lg:text-sm md:text-1xl sm:text-sm text-darkblue font-bold antialiased">
+                        <p className="lg:text-sm md:text-lg sm:text-sm sm:mb-4 text-darkblue font-bold antialiased">
                           What is Large Wall Climbing?
                           <button
                             className="underline text-yellow-500 pl-2 font-medium"
@@ -232,7 +233,7 @@ export default function Pricing() {
                         </Modal>
                       </div>
                     </div>
-                    <div className="h-auto lg:p-10 md:p-10 sm:p-6 rounded-md my-dropshadow">
+                    <div className="h-auto lg:p-8 md:p-8 sm:p-4 rounded-md my-dropshadow">
                       <div className="xl:text-2xl lg:text-2xl md:text-4xl sm:text-2xl font-bold text-midnight antialiased">
                         <h4>Top Rope Induction</h4>
                         <span className="font-medium lg:text-xl md:text-2xl sm:text-base mt-6 text-gray antialiased">
@@ -253,7 +254,7 @@ export default function Pricing() {
                         </button>
                       </div>
                       <div className="mt-6 pb-2">
-                        <p className="lg:text-sm md:text-1xl sm:text-sm text-darkblue font-bold antialiased">
+                        <p className="lg:text-sm md:text-lg sm:text-sm sm:mb-4 text-darkblue font-bold antialiased">
                           What is Top Rope Climbing?
                           <button
                             className="underline text-yellow-500 pl-2 font-medium"
@@ -308,7 +309,7 @@ export default function Pricing() {
                 </Tab.Panel>
                 <Tab.Panel>
                   <div className="grid lg:grid-cols-3 md:grid-rows-1 gap-6 mt-12">
-                    <div className="h-auto lg:p-10 md:p-10 sm:p-6 rounded-md my-dropshadow">
+                    <div className="h-auto lg:p-8 md:p-8 sm:p-4 rounded-md my-dropshadow">
                       <div className="xl:text-2xl lg:text-2xl md:text-4xl sm:text-2xl font-bold text-midnight antialiased">
                         <h4>Learn to Lean</h4>
                         <span className="font-medium lg:text-xl md:text-2xl sm:text-base mt-6 text-gray antialiased">
@@ -329,7 +330,7 @@ export default function Pricing() {
                         </button>
                       </div>
                       <div className="mt-6 pb-2">
-                        <p className="lg:text-sm md:text-1xl sm:text-sm text-darkblue font-bold antialiased">
+                        <p className="lg:text-sm md:text-lg sm:text-sm sm:mb-4 text-darkblue font-bold antialiased">
                           Learn to Learn details?
                           <button
                             className="underline text-yellow-500 pl-2 font-medium"
@@ -369,7 +370,7 @@ export default function Pricing() {
                         </Modal>
                       </div>
                     </div>
-                    <div className="h-auto lg:p-10 md:p-10 sm:p-6 rounded-md my-dropshadow">
+                    <div className="h-auto lg:p-8 md:p-8 sm:p-4 rounded-md my-dropshadow">
                       <div className="xl:text-2xl lg:text-2xl md:text-4xl sm:text-2xl font-bold text-midnight antialiased">
                         <h4>Advanced Coaching</h4>
                         <span className="font-medium lg:text-xl md:text-2xl sm:text-base mt-6 text-gray antialiased">
@@ -390,7 +391,7 @@ export default function Pricing() {
                         </button>
                       </div>
                       <div className="mt-6 pb-2">
-                        <p className="lg:text-sm md:text-1xl sm:text-sm text-darkblue font-bold antialiased">
+                        <p className="lg:text-sm md:text-lg sm:text-sm sm:mb-4 text-darkblue font-bold antialiased">
                           Advanced Coaching details?
                           <button
                             className="underline text-yellow-500 pl-2 font-medium"
@@ -428,7 +429,7 @@ export default function Pricing() {
                         </Modal>
                       </div>
                     </div>
-                    <div className="h-auto lg:p-10 md:p-10 sm:p-6 rounded-md my-dropshadow">
+                    <div className="h-auto lg:p-8 md:p-8 sm:p-4 rounded-md my-dropshadow">
                       <div className="xl:text-2xl lg:text-2xl md:text-4xl sm:text-2xl font-bold text-midnight antialiased">
                         <h4>Tailored Training</h4>
                         <span className="font-medium lg:text-xl md:text-2xl sm:text-base mt-6 text-gray antialiased">
@@ -449,7 +450,7 @@ export default function Pricing() {
                         </button>
                       </div>
                       <div className="mt-6 pb-2">
-                        <p className="lg:text-sm md:text-1xl sm:text-sm text-darkblue font-bold antialiased">
+                        <p className="lg:text-sm md:text-lg sm:text-sm sm:mb-4 text-darkblue font-bold antialiased">
                           Tailored Training details?
                           <button
                             className="underline text-yellow-500 pl-2 font-medium"

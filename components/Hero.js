@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { Link } from "react-scroll";
 export default function Hero() {
   return (
     <div className="hero-container">
@@ -26,17 +27,49 @@ export default function Hero() {
                     alt="Logo"
                   />
                 </div>
-                <li className="pl-4 text-white text-lg font-semibold antialiased">
-                  <a href="#">Climbing Programs</a>
+                <li className="pl-4 text-white hover:text-slateblue text-lg font-semibold cursor-pointer antialiased">
+                  <Link
+                    to="pricing"
+                    spy={true}
+                    smooth={true}
+                    offset={-20}
+                    duration={500}
+                  >
+                    Climbing Programs
+                  </Link>
                 </li>
-                <li className="pl-4 text-white text-lg font-semibold antialiased">
-                  <a href="#">Youth Club</a>
+                <li className="pl-4 text-white hover:text-slateblue text-lg font-semibold cursor-pointer antialiased">
+                  <Link
+                    to="youthClub"
+                    spy={true}
+                    smooth={true}
+                    offset={-20}
+                    duration={500}
+                  >
+                    Youth Club
+                  </Link>
                 </li>
-                <li className="pl-4 text-white text-lg font-semibold antialiased">
-                  <a href="#">Facilities</a>
+                <li className="pl-4 text-white hover:text-slateblue text-lg font-semibold cursor-pointer antialiased">
+                  <Link
+                    to="Facility"
+                    spy={true}
+                    smooth={true}
+                    offset={-20}
+                    duration={500}
+                  >
+                    Facilities
+                  </Link>
                 </li>
-                <li className="pl-4 text-white text-lg font-semibold antialiased">
-                  <a href="#">FAQs</a>
+                <li className="pl-4 text-white hover:text-slateblue text-lg font-semibold cursor-pointer antialiased">
+                  <Link
+                    to="FAQ"
+                    spy={true}
+                    smooth={true}
+                    offset={-20}
+                    duration={500}
+                  >
+                    FAQs
+                  </Link>
                 </li>
               </ul>
             </nav>
@@ -59,10 +92,18 @@ export default function Hero() {
             <div className="flex lg:mt-6 md:mt-6 sm:mt-6">
               <div className="grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 gap-4">
                 <div>
-                  <button className="button button1">Book Now</button>
+                  <Link
+                    to="pricing"
+                    spy={true}
+                    smooth={true}
+                    offset={-20}
+                    duration={500}
+                  >
+                    <button className="button button1">Book Now</button>
+                  </Link>
                 </div>
                 <div className="lg:pt-4 sm:pt-1 text-white text-bold lg:visible md:visible sm:invisible">
-                  <h4 className="hero-number font-bold text-3xl lg:pt-0 sm:pt-2">
+                  <h4 className="hero-number font-bold text-3xl lg:pt-0 sm:pt-2 antialiased">
                     Call 0214 56874
                   </h4>
                 </div>
@@ -86,7 +127,9 @@ export default function Hero() {
                 />
               </div>
               <div>
-                <h3 className="text-white font-bold text-4xl">4.5</h3>
+                <h3 className="text-white font-bold text-4xl antialiased">
+                  4.5
+                </h3>
               </div>
             </div>
             <div className="lg:invisible md:invisible sm:visible">
@@ -99,7 +142,7 @@ export default function Hero() {
                     alt="Google reviews icon"
                   />
                 </div>
-                <div className="mt-1 pl-2">
+                <div className="pl-2">
                   <Image
                     src="./imgs/Star_Rating_Mobile.svg"
                     width={106}

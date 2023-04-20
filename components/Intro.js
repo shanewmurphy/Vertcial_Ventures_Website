@@ -1,7 +1,7 @@
 import Image from "next/image";
 export default function Intro() {
   return (
-    <div className="full-width-container bg-midnight pb-32">
+    <div className="full-width-container bg-midnight pb-32" id="intro">
       <div className="my-container">
         <div className="grid lg:grid-cols-2 sm:grid-col-1 gap-20 xl:mt-14 lg:mt-6 sm:mt-2">
           <div>
@@ -12,7 +12,7 @@ export default function Intro() {
             <h4 className="text-white font-bold xl:text-3xl lg:text-2xl md:text-4xl sm:text-2xl lg:mb-4 md:mb-4 sm:mb-2 antialiased">
               Improve your strength, balance, and flexibility with every climb
             </h4>
-            <p className="text-white lg:text-xl md:text-xl sm:text-base font-medium antialiased">
+            <p className="text-white lg:text-base md:text-base sm:text-base font-medium antialiased">
               Our experienced staff is here to support and encourage you every
               step of the way. Learn from experienced instructors and take your
               climbing to the next level.
