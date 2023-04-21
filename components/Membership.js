@@ -48,7 +48,16 @@ export default function Membership() {
             <div className="flex justify-center mt-4">
               <button
                 className="w-44 h-9 outline border-slate-900 border-1"
-                onClick={() => console.log("Buy Now")}
+                onClick={() => {
+                  checkout({
+                    lineItems: [
+                      {
+                        price: "price_1MyyCEKZXFZOoTWJV28MvRfb",
+                        quantity: 1,
+                      },
+                    ],
+                  });
+                }}
               >
                 Join Now
               </button>
@@ -59,7 +68,16 @@ export default function Membership() {
             <div className="flex justify-center mt-4">
               <button
                 className="w-44 h-9 outline border-slate-900 border-1"
-                onClick={() => console.log("Buy Now")}
+                onClick={() => {
+                  checkout({
+                    lineItems: [
+                      {
+                        price: "price_1MyyDuKZXFZOoTWJl552DOV6",
+                        quantity: 1,
+                      },
+                    ],
+                  });
+                }}
               >
                 Join Now
               </button>
