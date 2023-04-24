@@ -151,6 +151,10 @@ object {
   font-size: 1rem;
   line-height: 20px;
 }
+.membership-image-container {
+  width: 310px;
+  margin: 0 auto;
+}
 .image-container {
   width: 100vw;
   height: auto;

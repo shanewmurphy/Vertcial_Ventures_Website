@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
+import Link from "next/link";
 import { Tab } from "@headlessui/react";
 import classNames from "classnames";
 import { Modal } from "./Modal";
@@ -97,9 +98,14 @@ export default function Pricing() {
                         </h1>
                       </div>
                       <div className="mt-4">
-                        <button className="w-full h-16 bg-bluenavy rounded-md font-bold text-white xl:text-2xl lg:text-2xl md:text-3xl sm:text-2xl antialiased">
-                          Book Now
-                        </button>
+                        <Link
+                          href="https://tidycal.com/vertical-ventures-indoor-rock-climbing-cork/bouldering-induction"
+                          target="blank"
+                        >
+                          <button className="w-full h-16 bg-bluenavy hover:bg-transparent hover:text-bluenavy hover:border-2 border-bluenavy rounded-md font-bold text-white xl:text-2xl lg:text-2xl md:text-3xl sm:text-2xl antialiased">
+                            Book Now
+                          </button>
+                        </Link>
                       </div>
                       <div className="mt-6">
                         <p className="lg:text-sm md:text-lg sm:text-sm sm:mb-4 text-darkblue font-bold antialiased">
@@ -171,7 +177,7 @@ export default function Pricing() {
                         </h1>
                       </div>
                       <div className="mt-4">
-                        <button className="w-full h-16 bg-bluenavy rounded-md font-bold text-white xl:text-2xl lg:text-2xl md:text-3xl sm:text-2xl antialiased">
+                        <button className="w-full h-16 bg-bluenavy rounded-md font-bold text-white xl:text-2xl lg:text-2xl md:text-3xl sm:text-2xl hover:bg-transparent hover:text-bluenavy hover:border-2 border-bluenavy antialiased">
                           Book Now
                         </button>
                       </div>
