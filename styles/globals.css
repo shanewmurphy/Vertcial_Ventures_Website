@@ -127,7 +127,7 @@ object {
   margin: 0 auto;
 }
 .text-centered-container {
-  width: 60vw;
+  width: 70vw;
   margin: 0 auto;
   text-align: center;
 }
@@ -219,12 +219,23 @@ object {
 .google-review-container {
   display: flex;
 }
+.call-btn {
+  width: 25vw;
+  margin: 0 auto;
+  padding: 10px 40px;
+  font-size: 20px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  background-color: #494fb2;
+  border-radius: 53px;
+  color: white;
+}
 .button1 {
   background-color: #6870fe;
   color: white;
   border: 2px solid transparent;
 }
-
 .button1:hover {
   background-color: transparent;
   border: 2px solid #6870fe;
@@ -232,13 +243,13 @@ object {
 }
 
 .button2 {
-  background-color: white;
-  color: black;
-  border: 2px solid #008cba;
+  background-color: transparent;
+  color: white;
+  border: 2px solid #6870fe;
 }
 
 .button2:hover {
-  background-color: #008cba;
+  background-color: transparent;
   color: white;
 }
 
@@ -295,6 +306,9 @@ object {
   .faq-container {
     width: 90vw;
   }
+  .call-btn {
+    width: 40vw;
+  }
 }
 @media screen and (max-width: 411px) {
   .hero-container {
@@ -335,5 +349,9 @@ object {
   }
   .google-review-container {
     display: none;
+  }
+  .call-btn {
+    width: 70vw;
+    font-size: 18px;
   }
 }

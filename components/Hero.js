@@ -90,7 +90,7 @@ export default function Hero() {
           </h4>
           <div>
             <div className="flex lg:mt-6 md:mt-6 sm:mt-6">
-              <div className="grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 gap-4">
+              <div className="grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2">
                 <div>
                   <Link
                     to="pricing"
@@ -102,10 +102,10 @@ export default function Hero() {
                     <button className="button button1">Book Now</button>
                   </Link>
                 </div>
-                <div className="lg:pt-4 sm:pt-1 text-white text-bold lg:visible md:visible sm:invisible">
-                  <h4 className="hero-number font-bold text-3xl lg:pt-0 sm:pt-2 antialiased">
-                    Call 0214 56874
-                  </h4>
+                <div className="mt-1">
+                  <button className="call-btn button2 antialiased">
+                    Call 021 456 874
+                  </button>
                 </div>
               </div>
             </div>

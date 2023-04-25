@@ -44,7 +44,7 @@ export default function Pricing() {
   return (
     <div>
       <div className="text-centered-container" id="pricing">
-        <h2 className="font-black xl:text-4xl lg:text-4xl md:text-3xl sm:text-2xl text-midnight mb-2">
+        <h2 className="font-black xl:text-5xl lg:text-5xl md:text-5xl sm:text-7xl text-midnight mb-2">
           <span className="text-bluenavy">Pre-Booking </span>is essential for
           all our Tasters & Courses
         </h2>
@@ -183,7 +183,7 @@ export default function Pricing() {
                       </div>
                       <div className="mt-6">
                         <p className="lg:text-sm md:text-lg sm:text-sm sm:mb-4 text-darkblue font-bold antialiased">
-                          What is Large Wall Climbing?
+                          What is Large Wall?
                           <button
                             className="underline text-yellow-500 pl-2 font-medium"
                             onClick={() => setOpen2(true)}
@@ -255,13 +255,13 @@ export default function Pricing() {
                         </h1>
                       </div>
                       <div className="mt-4">
-                        <button className="w-full h-16 bg-bluenavy rounded-md font-bold text-white xl:text-2xl lg:text-2xl md:text-3xl sm:text-2xl antialiased">
+                        <button className="w-full h-16  bg-bluenavy hover:bg-transparent hover:text-bluenavy hover:border-2 border-bluenavy rounded-md font-bold text-white xl:text-2xl lg:text-2xl md:text-3xl sm:text-2xl antialiased">
                           Book Now
                         </button>
                       </div>
                       <div className="mt-6 pb-2">
                         <p className="lg:text-sm md:text-lg sm:text-sm sm:mb-4 text-darkblue font-bold antialiased">
-                          What is Top Rope Climbing?
+                          What is Top Rope?
                           <button
                             className="underline text-yellow-500 pl-2 font-medium"
                             onClick={() => setOpen3(true)}
@@ -331,7 +331,7 @@ export default function Pricing() {
                         </h1>
                       </div>
                       <div className="mt-4">
-                        <button className="w-full h-16 bg-bluenavy rounded-md font-bold text-white xl:text-2xl lg:text-2xl md:text-3xl sm:text-2xl antialiased">
+                        <button className="w-full h-16  bg-bluenavy hover:bg-transparent hover:text-bluenavy hover:border-2 border-bluenavy rounded-md font-bold text-white xl:text-2xl lg:text-2xl md:text-3xl sm:text-2xl antialiased">
                           Book Now
                         </button>
                       </div>
@@ -392,13 +392,13 @@ export default function Pricing() {
                         </h1>
                       </div>
                       <div className="mt-4">
-                        <button className="w-full h-16 bg-bluenavy rounded-md font-bold text-white xl:text-2xl lg:text-2xl md:text-3xl sm:text-2xl antialiased">
+                        <button className="w-full h-16  bg-bluenavy hover:bg-transparent hover:text-bluenavy hover:border-2 border-bluenavy rounded-md font-bold text-white xl:text-2xl lg:text-2xl md:text-3xl sm:text-2xl antialiased">
                           Book Now
                         </button>
                       </div>
                       <div className="mt-6 pb-2">
                         <p className="lg:text-sm md:text-lg sm:text-sm sm:mb-4 text-darkblue font-bold antialiased">
-                          Advanced Coaching details?
+                          Advanced Coaching?
                           <button
                             className="underline text-yellow-500 pl-2 font-medium"
                             onClick={() => setOpen5(true)}
@@ -451,7 +451,7 @@ export default function Pricing() {
                         </h1>
                       </div>
                       <div className="mt-4">
-                        <button className="w-full h-16 bg-bluenavy rounded-md font-bold text-white xl:text-2xl lg:text-2xl md:text-3xl sm:text-2xl antialiased">
+                        <button className="w-full h-16  bg-bluenavy hover:bg-transparent hover:text-bluenavy hover:border-2 border-bluenavy rounded-md font-bold text-white xl:text-2xl lg:text-2xl md:text-3xl sm:text-2xl antialiased">
                           Book Now
                         </button>
                       </div>
@@ -505,7 +505,7 @@ export default function Pricing() {
               Climb for a cause with our fundraising events for local
               non-profits and charities
             </h5>
-            <h6 className="font-bold lg:text-2xl md:text-2xl sm:text-sm text-gray">
+            <h6 className="font-bold lg:text-2xl md:text-2xl sm:text-lg text-gray">
               Please drop us an email to
               <span className="text-slateblue pl-1 pr-1">
                 info@verticalventures.com
